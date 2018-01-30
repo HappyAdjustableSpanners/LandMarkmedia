@@ -1,0 +1,39 @@
+<div class="container-fluid text-center section" id="section-services">
+  <h1 class="margin-top-0">
+    About
+  </h1>
+  
+  {% for service in page.header.services %}
+         <!-- For each 2 items, add a row -->
+        {% if loop.index % 2 == 1 %}
+                <div class="row row-center">
+        {% endif %}
+            <div class="col-md-5 col-center">
+                <div class="service-card">
+                    <!-- icon -->
+                    {% if service.image == "graph.PNG" %}
+                        <i class="fa fa-bar-chart fa-5x" aria-hidden="true"></i>
+                    {% endif %}
+                    {% if service.image == "pie-chart.PNG" %}
+                        <i class="fa fa-pie-chart fa-5x" aria-hidden="true"></i>
+                    {% endif %}
+                    {% if service.image == "lock.PNG" %}
+                        <i class="fa fa-lock fa-5x" aria-hidden="true"></i>
+                    {% endif %}
+                    {% if service.image == "house.PNG" %}
+                        <i class="fa fa-home fa-5x" aria-hidden="true"></i>
+                    {% endif %}
+
+                    <!-- Title -->
+                    <b><p class="padding-bottom-15 padding-top-15">{{service.text}}</p></b>
+                    <button class="goto-btn"><i class="fa fa-arrow-circle-right fa-3x"></i></button>
+                </div> <!-- End of card -->
+                <hr class="hr-red margin-bottom-50">
+            </div> <!-- End col -->
+
+               {% if loop.index == page.header.services.count or loop.index % 2 == 0 %}
+        </div>
+        {% endif %}
+
+  {% endfor %}
+</div>

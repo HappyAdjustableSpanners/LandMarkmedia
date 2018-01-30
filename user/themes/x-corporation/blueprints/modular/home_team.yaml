@@ -1,0 +1,58 @@
+title: Services
+'@extends':
+        type: default
+
+form:
+    fields:
+        tabs:
+            type: tabs
+            active: 1
+            fields:
+                page:
+                    type: tab
+                    title: Text
+                    fields:
+                        header.title:
+                            type: text
+                            title: title
+                            label: title
+                        header.subheading:
+                             type: text
+                             title: Subheading
+                             label: Subheading
+                        header.team:
+                            type: list
+                            title: Team
+                            fields: 
+                                .image:
+                                    type: filepicker
+                                    preview_images: true
+                                    acccept:
+                                        - .png
+                                        - .jpg
+                                        - .gif
+                                    label: Image   
+                                .name:
+                                    type: text
+                                    title: name
+                                    label: name
+                                .position:
+                                    type: text
+                                    title: position
+                                    label: position
+                                .description:
+                                    type: text
+                                    title: description
+                                    label: description
+                               
+
+                                                        
+
+
+
+
+               
+
+
+                
+                

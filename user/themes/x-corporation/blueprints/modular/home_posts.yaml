@@ -1,0 +1,19 @@
+
+title: posts
+twig_first: true
+process:
+    twig: true
+'@extends':
+        type: default
+
+                       
+                                                        
+
+
+
+
+               
+
+
+                
+                

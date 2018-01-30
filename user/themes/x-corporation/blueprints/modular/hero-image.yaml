@@ -1,0 +1,36 @@
+title: Hero-Image
+'@extends':
+        type: default
+
+form:
+    fields:
+        tabs:
+            type: tabs
+            active: 1
+            fields:
+                map:
+                    type: tab
+                    title: Image
+                    fields:
+                        .image:
+                            type: filepicker
+                            preview_images: true
+                            acccept:
+                                - .png
+                                - .jpg
+                                - .gif
+                            label: Image
+                        header.heading:
+                            type: text
+                            title: Heading
+                            label: heading
+                        header.subheading:
+                            type: text
+                            title: Subheading
+                            label: subheading
+
+               
+
+
+                
+                

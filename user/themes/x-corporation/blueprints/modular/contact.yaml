@@ -1,0 +1,32 @@
+title: Contact
+'@extends':
+        type: default
+
+form:
+    fields:
+        tabs:
+            type: tabs
+            active: 1
+            fields:
+                contact:
+                    type: tab
+                    title: Contact
+                    fields:                    
+                        header.address:
+                            type: editor
+                            title: Address
+                            label: Address
+                        header.contactdetails:
+                            type: editor
+                            title: Contact Details
+                            label: Contact Details
+                        header.subheading:
+                            type: text
+                            title: Subheading
+                            label: Subheading
+
+               
+
+
+                
+                

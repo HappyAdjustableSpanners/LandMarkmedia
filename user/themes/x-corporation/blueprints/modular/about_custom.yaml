@@ -1,0 +1,24 @@
+title: About
+'@extends':
+        type: default
+
+form:
+    fields:
+        tabs:
+            type: tabs
+            active: 1
+            fields:
+                map:
+                    type: tab
+                    title: Text
+                    fields:
+                        header.text:
+                            type: text
+                            title: text
+                            label: text
+
+               
+
+
+                
+                

@@ -1,0 +1,29 @@
+1517935451
+a:2:{s:7:"content";s:619:"<!-- read in latest posts -->
+<ul>
+</ul>
+
+<!-- display posts -->
+<div class="container-fluid text-center section" id="section-posts">
+  <h1 class="margin-top-0">
+    Latest news
+  </h1>
+
+  <button id="btn-all-posts" class="margin-top-30 margin-bottom-50"><i class="fa fa-arrow-right padding-right-10"></i>All posts</button>
+
+  <div class="row" id="posts-div">
+    <div class="col-md-4">
+        <h1>Title</h1>
+        <p>Text</p>
+    </div>
+    <div class="col-md-4">
+        <h1>Title</h1>
+        <p>Text</p>
+    </div>
+    <div class="col-md-4">
+        <h1>Title</h1>
+        <p>Text</p>
+    </div>
+  </div>
+</div>
+";s:12:"content_meta";N;}

@@ -1,0 +1,57 @@
+1517923220
+a:2:{s:7:"content";s:2351:"<div class="container-fluid text-center section" id="section-services">
+  <h1 class="margin-top-0">
+    About
+  </h1>
+  
+           <!-- For each 2 items, add a row -->
+                        <div class="row">
+                    <div class="col-md-6">
+                <div>
+                    <!-- icon -->
+                                            <i class="fa fa-bar-chart fa-5x" aria-hidden="true"></i>
+                                                                                
+                    <!-- Title -->
+                    <p>Contract and remuneration service</p>
+                    <button>></button>
+                </div> <!-- End of card -->
+            </div> <!-- End col -->
+
+           <!-- For each 2 items, add a row -->
+                    <div class="col-md-6">
+                <div>
+                    <!-- icon -->
+                                                                                    <i class="fa fa-lock fa-5x" aria-hidden="true"></i>
+                                        
+                    <!-- Title -->
+                    <p>GDPR</p>
+                    <button>></button>
+                </div> <!-- End of card -->
+            </div> <!-- End col -->
+
+           <!-- For each 2 items, add a row -->
+                        <div class="row">
+                    <div class="col-md-6">
+                <div>
+                    <!-- icon -->
+                                                                                                        <i class="fa fa-home fa-5x" aria-hidden="true"></i>
+                    
+                    <!-- Title -->
+                    <p>Inhousing media planning & buying</p>
+                    <button>></button>
+                </div> <!-- End of card -->
+            </div> <!-- End col -->
+
+           <!-- For each 2 items, add a row -->
+                    <div class="col-md-6">
+                <div>
+                    <!-- icon -->
+                                                                <i class="fa fa-pie-chart fa-5x" aria-hidden="true"></i>
+                                                            
+                    <!-- Title -->
+                    <p>Research, analytics & insights</p>
+                    <button>></button>
+                </div> <!-- End of card -->
+            </div> <!-- End col -->
+
+  </div>";s:12:"content_meta";N;}

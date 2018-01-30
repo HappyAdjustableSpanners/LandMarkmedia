@@ -1,0 +1,161 @@
+1517929637
+a:2:{s:7:"content";s:6950:"<div class="container-fluid text-center section" id="section-team">
+  <h1 class="margin-top-0">
+    Team
+  </h1>
+  <p>Meet the people that are going to take your business to the next level</p>
+  
+           <!-- For each 2 items, add a row -->
+                        <div class="row">
+                    <div class="col-md-3">
+                <div class="member-card">
+                    
+                    <!-- img -->
+                    <a class="border-radius-50 team-img">
+                        <img alt="Mark Connoly" src="/grav-admin/user/pages/01.home-custom/_team/person.png" />
+                    </a>
+
+                    <!-- Info -->
+                    <p>Mark Connoly</p>
+                    <p class="padding-top-15 padding-bottom-15">CEO</p>
+                    <p>Lorum Ipsum dolor el constanti</p>
+
+                    <div class="row">
+                        <div class="col-xs-offset-6 col-xs-1 team-icon">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-1 team-icon">
+                             <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-1 team-icon">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div> <!-- End of card -->
+                <hr class="hr-red margin-bottom-50">
+            </div> <!-- End col -->
+
+               
+           <!-- For each 2 items, add a row -->
+                    <div class="col-md-3">
+                <div class="member-card">
+                    
+                    <!-- img -->
+                    <a class="border-radius-50 team-img">
+                        <img alt="Michael Greene" src="/grav-admin/user/pages/01.home-custom/_team/person.png" />
+                    </a>
+
+                    <!-- Info -->
+                    <p>Michael Greene</p>
+                    <p class="padding-top-15 padding-bottom-15">Senior Consultant</p>
+                    <p>Lorum Ipsum dolor el constanti</p>
+
+                    <div class="row">
+                        <div class="col-xs-offset-6 col-xs-1 team-icon">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-1 team-icon">
+                             <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-1 team-icon">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div> <!-- End of card -->
+                <hr class="hr-red margin-bottom-50">
+            </div> <!-- End col -->
+
+               
+           <!-- For each 2 items, add a row -->
+                    <div class="col-md-3">
+                <div class="member-card">
+                    
+                    <!-- img -->
+                    <a class="border-radius-50 team-img">
+                        <img alt="Guy Beresiner" src="/grav-admin/user/pages/01.home-custom/_team/person.png" />
+                    </a>
+
+                    <!-- Info -->
+                    <p>Guy Beresiner</p>
+                    <p class="padding-top-15 padding-bottom-15">Senior Consultant</p>
+                    <p>Lorum Ipsum dolor el constanti</p>
+
+                    <div class="row">
+                        <div class="col-xs-offset-6 col-xs-1 team-icon">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-1 team-icon">
+                             <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-1 team-icon">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div> <!-- End of card -->
+                <hr class="hr-red margin-bottom-50">
+            </div> <!-- End col -->
+
+               
+           <!-- For each 2 items, add a row -->
+                    <div class="col-md-3">
+                <div class="member-card">
+                    
+                    <!-- img -->
+                    <a class="border-radius-50 team-img">
+                        <img alt="Stuart Colman" src="/grav-admin/user/pages/01.home-custom/_team/person.png" />
+                    </a>
+
+                    <!-- Info -->
+                    <p>Stuart Colman</p>
+                    <p class="padding-top-15 padding-bottom-15">Senior Consultant</p>
+                    <p>Lorum Ipsum dolor el constanti</p>
+
+                    <div class="row">
+                        <div class="col-xs-offset-6 col-xs-1 team-icon">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-1 team-icon">
+                             <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-1 team-icon">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div> <!-- End of card -->
+                <hr class="hr-red margin-bottom-50">
+            </div> <!-- End col -->
+
+                       </div>
+        
+           <!-- For each 2 items, add a row -->
+                        <div class="row">
+                    <div class="col-md-3">
+                <div class="member-card">
+                    
+                    <!-- img -->
+                    <a class="border-radius-50 team-img">
+                        <img alt="Bob NewGuy" src="/grav-admin/user/pages/01.home-custom/_team/person.png" />
+                    </a>
+
+                    <!-- Info -->
+                    <p>Bob NewGuy</p>
+                    <p class="padding-top-15 padding-bottom-15">The New Guy</p>
+                    <p>Lorum Ipsum dolor el constanti</p>
+
+                    <div class="row">
+                        <div class="col-xs-offset-6 col-xs-1 team-icon">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-1 team-icon">
+                             <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-1 team-icon">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div> <!-- End of card -->
+                <hr class="hr-red margin-bottom-50">
+            </div> <!-- End col -->
+
+               
+  </div>";s:12:"content_meta";N;}

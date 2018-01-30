@@ -1,0 +1,7 @@
+{% set img = page.media.images|first %}
+<div class="hero-image" style="background-image: url({{ img.url }});">
+    <div class="hero-text">
+    <h1 id="main-title">{{ page.header.heading }}</h1>
+    <p>{{ page.header.subheading }}</p>
+  </div>
+</div>

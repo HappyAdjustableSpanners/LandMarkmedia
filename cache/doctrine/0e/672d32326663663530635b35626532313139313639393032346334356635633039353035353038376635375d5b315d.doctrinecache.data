@@ -1,0 +1,84 @@
+1517409183
+a:2:{s:7:"content";s:6513:"<section class="team ptb-100">
+    <section class="section-title">
+        <div class="container text-center">
+            <h2>Meet the Team</h2>
+            <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
+        </div>
+    </section>
+    <div class="container">
+    
+                <div class="row">
+                    <div class="col-md-4">
+                <figure class="thumbnail">
+                    <a class="border-radius-50" data-toggle="collapse" data-target="#description">
+                        <img alt="Mark Connoly" src="/grav-admin/user/pages/02.team/_team-custom/markc.png" />
+                    </a>
+                    <figcaption class="caption text-center">
+                        <h3>Mark Connoly -
+                            <small>CEO</small>
+                        </h3>
+                    </figcaption>
+                    <div class="text-center collapse" id="description">
+                        <p><strong>Mark Connoly</strong> has been in the marketing and media industry since 1988.  Having held senior positions at media owners (GMTV, Sky, ids/Virgin Media, Yahoo!), data and technology companies (WPP’s The Media Innovation Group, AudienceScience) and most recently Chief Investment Officer at advertising agency Havas Media Group, Mark provides a unique insight having C Level board experience from the advertising agency, intermediary and media owner perspectives and has held UK, European and Global media roles. </p>
+<p>Having been in commercial trading and negotiation for most of his career, Mark has extensive experience in understanding the challenges and, most importantly, solutions that can benefit advertisers, media agencies and media owners.  At Havas Mark was responsible for all media trading and negotiation, a team of 250 media planners and buyers and had executive responsibility for more than £500 million of advertisers’ media investment.  In 2017 Mark established Landmark Media Ltd, an independent media consultancy specifically developed to advise advertisers on how to better navigate the media landscape. </p>
+                    </div>
+                </figure>
+            </div>
+        
+    
+                    <div class="col-md-4">
+                <figure class="thumbnail">
+                    <a class="border-radius-50" data-toggle="collapse" data-target="#description">
+                        <img alt="Michael Greene" src="/grav-admin/user/pages/02.team/_team-custom/person.png" />
+                    </a>
+                    <figcaption class="caption text-center">
+                        <h3>Michael Greene -
+                            <small>Senior  Consultant</small>
+                        </h3>
+                    </figcaption>
+                    <div class="text-center collapse" id="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                </figure>
+            </div>
+        
+    
+                    <div class="col-md-4">
+                <figure class="thumbnail">
+                    <a class="border-radius-50" data-toggle="collapse" data-target="#description">
+                        <img alt="Guy Beresiner" src="/grav-admin/user/pages/02.team/_team-custom/person.png" />
+                    </a>
+                    <figcaption class="caption text-center">
+                        <h3>Guy Beresiner -
+                            <small>Senior Consultant</small>
+                        </h3>
+                    </figcaption>
+                    <div class="text-center collapse" id="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                </figure>
+            </div>
+                </div>
+        
+    
+                <div class="row">
+                    <div class="col-md-4">
+                <figure class="thumbnail">
+                    <a class="border-radius-50" data-toggle="collapse" data-target="#description">
+                        <img alt="Stuart Colman" src="/grav-admin/user/pages/02.team/_team-custom/person.png" />
+                    </a>
+                    <figcaption class="caption text-center">
+                        <h3>Stuart Colman -
+                            <small>Senior Consultant</small>
+                        </h3>
+                    </figcaption>
+                    <div class="text-center collapse" id="description">
+                        <p>Mark Connolly has been in the marketing and media industry since 1988.  Having held senior positions at media owners (GMTV, Sky, ids/Virgin Media, Yahoo!), data and technology companies (WPP’s The Media Innovation Group, AudienceScience) and most recently Chief Investment Officer at advertising agency Havas Media Group, Mark provides a unique insight having C Level board experience from the advertising agency, intermediary and media owner perspectives and has held UK, European and Global media roles.      Having been in commercial trading and negotiation for most of his career, Mark has extensive experience in understanding the challenges and, most importantly, solutions that can benefit advertisers, media agencies and media owners.  At Havas Mark was responsible for all media trading and negotiation, a team of 250 media planners and buyers and had executive responsibility for more than £500 million of advertisers’ media investment.  In 2017 Mark established Landmark Media Ltd, an independent media consultancy specifically developed to advise advertisers on how to better navigate the media landscape. </p>
+                    </div>
+                </figure>
+            </div>
+        
+        </div>
+</section>
+";s:12:"content_meta";N;}

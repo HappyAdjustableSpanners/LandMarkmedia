@@ -1,0 +1,46 @@
+<div class="container-fluid text-center section" id="section-team">
+  <h1 class="margin-top-0">
+    Team
+  </h1>
+  <p class="margin-bottom-50">{{header.subheading}}</p>
+  
+  {% for member in page.header.team %}
+         <!-- For each 2 items, add a row -->
+        {% if loop.index % 4 == 1 %}
+                <div class="row row-center">
+        {% endif %}
+            <div class="col-center col-md-2">
+                <div class="member-card">
+                    
+                    <!-- img -->
+                    <a class="border-radius-50 team-img">
+                        {{ page.media.images[member.image].html('', member.name) }}
+                    </a>
+
+                    <!-- Info -->
+                    <p class="team-name">{{member.name}}</p>
+                    <p class="team-position">{{member.position}}</p>
+                    <p class="team-description">{{member.description}}</p>
+
+                    <div class="row">
+                        <div class="col-xs-offset-3 col-xs-2 team-icon">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-2 team-icon">
+                             <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-xs-2 team-icon">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </div>
+
+                    </div>
+                </div> <!-- End of card -->
+                <hr class="hr-red margin-bottom-50">
+            </div> <!-- End col -->
+
+               {% if loop.index == page.header.services.count or loop.index % 4 == 0 %}
+        </div>
+        {% endif %}
+
+  {% endfor %}
+</div>

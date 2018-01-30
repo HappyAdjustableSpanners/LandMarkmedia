@@ -1,0 +1,41 @@
+<section class="x-services ptb-100 gray-bg">
+
+    <section class="section-title">
+        <div class="container text-center">
+            <h2>{{ page.title }}</h2>
+            <h4>{{ page.header.description }}</h4>
+            <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
+        </div>
+    </section>
+
+    <div class="container">
+    {% for service in page.header.services %}
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="thumbnail clearfix">
+                    <a href="{{ service.url }}" class="padding-20">
+                        {{ page.media.images[service.image].html('', service.title) }}
+                    </a>
+
+                    <div class="caption">
+                        <h3><a href="{{ service.url }}">{{ service.title }}</a></h3>
+
+                        <p>{{ service.description }}</p>
+
+                        </hr>
+
+                        <ul>
+                        {% for point in service.points %}
+                            <li><b>{{ point.text }}</b></li>
+                        {% endfor %}
+                        </ul>
+                    </div> <!-- End caption -->
+                </div> <!-- End thumbnail -->
+            </div> <!-- End col -->
+        {% if loop.index == page.header.services.count or loop.index % 2 == 0 %}
+        </div> <!-- End row -->
+        {% endif %}
+    {% endfor %}
+    </div>
+</section>
