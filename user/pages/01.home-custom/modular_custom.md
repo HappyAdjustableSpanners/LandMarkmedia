@@ -11,5 +11,6 @@ content:
             - _home_services
             - _home_team
             - _home_posts
+            - _home_contact
 ---
 

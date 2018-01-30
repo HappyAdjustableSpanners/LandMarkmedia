@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/grav-admin/user/themes/x-corporation/blueprints/modular/home_services.yaml',
-    'modified' => 1517318031,
+    'modified' => 1517332536,
     'data' => [
         'title' => 'Services',
         '@extends' => [

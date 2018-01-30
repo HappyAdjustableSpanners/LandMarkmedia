@@ -115,7 +115,8 @@ class __TwigTemplate_6994405b2543da0b5d59730e695e02bb9e2454f8a55f51c72e0748a3404
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['service'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 39
-        echo "</div>";
+        echo "</div>
+</div>";
     }
 
     public function getTemplateName()
@@ -181,6 +182,7 @@ class __TwigTemplate_6994405b2543da0b5d59730e695e02bb9e2454f8a55f51c72e0748a3404
         {% endif %}
 
   {% endfor %}
+</div>
 </div>", "modular/home_services.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\themes\\x-corporation\\templates\\modular\\home_services.html.twig");
     }
 }
