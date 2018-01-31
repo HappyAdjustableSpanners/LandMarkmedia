@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1516801726,
-    'checksum' => 'bd0adba6896e6ccb133554a802d9ea02',
+    'timestamp' => 1517411678,
+    'checksum' => 'cf5013b09d3debd751488aa0006f7c00',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1516701026
+            ],
+            'plugins/google-maps' => [
+                'file' => 'user/config/plugins/google-maps.yaml',
+                'modified' => 1517406244
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -23,7 +27,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1516801724
+                'modified' => 1517411676
             ]
         ],
         'system/config' => [
@@ -61,6 +65,10 @@ return [
                 'file' => 'user/plugins/form/form.yaml',
                 'modified' => 1516722717
             ],
+            'plugins/google-maps' => [
+                'file' => 'user/plugins/google-maps/google-maps.yaml',
+                'modified' => 1517406184
+            ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
                 'modified' => 1516700869
@@ -72,6 +80,10 @@ return [
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
                 'modified' => 1516700830
+            ],
+            'plugins/shortcode-core' => [
+                'file' => 'user/plugins/shortcode-core/shortcode-core.yaml',
+                'modified' => 1517406158
             ]
         ]
     ],
@@ -179,6 +191,10 @@ return [
                     ]
                 ]
             ],
+            'google-maps' => [
+                'enabled' => true,
+                'google_api_key' => 'AIzaSyBNyKCTtkYbFEdyjdfCh5DRom9h-b5hP5U'
+            ],
             'login' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -245,6 +261,17 @@ return [
             'problems' => [
                 'enabled' => true,
                 'built_in_css' => true
+            ],
+            'shortcode-core' => [
+                'enabled' => true,
+                'active' => true,
+                'active_admin' => true,
+                'parser' => 'regex',
+                'custom_shortcodes' => NULL,
+                'fontawesome' => [
+                    'load' => true,
+                    'url' => '//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'
+                ]
             ]
         ],
         'media' => [

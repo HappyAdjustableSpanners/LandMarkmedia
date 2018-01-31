@@ -47,14 +47,14 @@ class __TwigTemplate_35f0b0d08c0408528f16391b0f26201de7ef1de20a15cb33e6bb30ada70
     </div>
     <div class=\"col-md-4\">
         <div class=\"row\">
-             <div class=\"col-xs-4\">
+             <div class=\"col-md-4\">
+            </div>
+             <div class=\"col-md-4\" id=\"logos\">
+                <i class=\"fa fa-twitter\" aria-hidden=\"true\"></i>
+                <i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i>
                 <i class=\"fa fa-facebook\" aria-hidden=\"true\"></i>
             </div>
-             <div class=\"col-xs-4\">
-                <i class=\"fa fa-twitter\" aria-hidden=\"true\"></i>
-            </div>
-             <div class=\"col-xs-4\">
-                <i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i>
+             <div class=\"col-md-4\">
             </div>
         </div>
     </div>
@@ -109,14 +109,14 @@ class __TwigTemplate_35f0b0d08c0408528f16391b0f26201de7ef1de20a15cb33e6bb30ada70
     </div>
     <div class=\"col-md-4\">
         <div class=\"row\">
-             <div class=\"col-xs-4\">
+             <div class=\"col-md-4\">
+            </div>
+             <div class=\"col-md-4\" id=\"logos\">
+                <i class=\"fa fa-twitter\" aria-hidden=\"true\"></i>
+                <i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i>
                 <i class=\"fa fa-facebook\" aria-hidden=\"true\"></i>
             </div>
-             <div class=\"col-xs-4\">
-                <i class=\"fa fa-twitter\" aria-hidden=\"true\"></i>
-            </div>
-             <div class=\"col-xs-4\">
-                <i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i>
+             <div class=\"col-md-4\">
             </div>
         </div>
     </div>

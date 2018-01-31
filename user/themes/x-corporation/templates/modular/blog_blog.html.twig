@@ -1,0 +1,110 @@
+<div class="container-fluid section bg-white">
+
+
+        <!-- Entire content -->
+        <div class="row">
+
+            <!-- main-blog column -->
+            <div class="col-md-8 border-right">
+
+            
+                {% for post in header.posts %}
+                    <!-- Img -->
+                    <div class="row">
+                    
+                        <!-- Full Col -->
+                        <div class="col-md-12 blog-image">
+                            {% if page.header.image != '' %}
+                                {{ page.media.images[post.image].html() }}
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    <!-- Title -->
+                    <div class="row">
+                        <!-- Full Col -->
+                        <div class="col-md-12 padding-top-20">
+                            <h1>{{post.heading}}</h1>
+                            <hr class="hr-short-red">
+                        </div>
+                    </div>
+
+                    <!-- Date and author -->
+                    <div class="row padding-top-20">
+                        <!-- Full Col -->
+                        <div class="col-xs-6">
+                                <button class="blog-date">January 29th 2018</button>
+
+                        </div>
+
+                        <div class="col-xs-6">
+                                   <p>By: {{post.author}}</p>
+                        </div> 
+                    </div>
+
+                    <!-- Text -->
+                    <div class="row padding-top-20">
+                        <!-- Full Col -->
+                        <div class="col-md-12">
+                            {{post.text}}}
+                            <hr class="hr-black">
+                        </div>
+                    </div>
+
+                {% endfor %}
+
+            </div> <!-- Eof main blog col -->
+
+
+            <!-- Recent blog posts column -->
+            <div class="col-md-4">
+                <h1>Recent</h1>
+                {% for post in header.posts %}
+                    {% if loop.index <= 3 %}
+                        <!-- Img -->
+                            <div class="row">
+                            
+                                <!-- Full Col -->
+                                <div class="col-md-12 blog-image">
+                                    {% if page.header.image != '' %}
+                                        {{ page.media.images[post.image].html() }}
+                                    {% endif %}
+                                </div>
+                            </div>
+
+                            <!-- Title -->
+                            <div class="row">
+                                <!-- Full Col -->
+                                <div class="col-md-12 padding-top-20">
+                                    <h1>{{post.heading}}</h1>
+                                     <hr class="hr-short-red">
+                                </div>
+                            </div>
+
+                            <!-- Date and author -->
+                            <div class="row padding-top-20">
+                                 <!-- Full Col -->
+                                <div class="col-xs-6">
+                                    <button class="blog-date">January 29th 2018</button>
+                                </div>
+
+                                <div class="col-xs-6">
+                                   <p>By: {{post.author}}</p>
+                                </div> 
+                            </div>
+
+                            <!-- Text -->
+                            <div class="row  padding-top-20">
+                                <!-- Full Col -->
+                                <div class="col-md-12">
+                                    {{post.text}}
+                                    <hr class="hr-black">
+                                </div>
+                            </div>
+                        {% endif %}
+                {% endfor %}
+                </div> <!-- Eof recent posts col -->
+            </div>
+    
+    </div> <!-- Eof entire content -->
+</div><!-- Eof container -->

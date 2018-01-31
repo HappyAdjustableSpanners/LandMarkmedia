@@ -7,10 +7,10 @@ content:
         dir: asc
         custom:
             - _hero-image
-            - _about_custom
-            - _home_services
-            - _home_team
-            - _home_posts
-            - _home_contact
+            - _about-custom
+            - _service-custom
+            - _team
+            - _posts
+            - _home-contact
 ---
 

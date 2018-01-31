@@ -1,0 +1,47 @@
+{% if header.bgColor == "white" %}
+    
+<div class="container-fluid text-center section bg-white dual-col-img align-text-left">
+{% else %}
+    
+<div class="container-fluid text-center section bg-red dual-col-img align-text-left">
+{% endif %}
+
+    <!-- First row -->
+    <div class="row">
+      <div class="col-md-6">
+        <h1>
+          {{header.heading}}
+        </h1>
+        <hr class="hr-short-red">
+      </div>  <!-- EOF col -->
+    </div>  <!-- EOF row -->
+
+    <div class="row">
+
+      {% if header.alignment == "imgRight" %}
+      <div class="col-md-6">
+        <p>
+          {{header.text | markdown}}
+        </p>
+      </div>  <!-- EOF col -->
+      <div class="col-md-6">
+        {% if page.header.image != '' %}
+          {{ page.media.images[page.header.image].html() }}
+        {% endif %}
+      </div>  <!-- EOF col -->
+
+      {% else %}
+      <div class="col-md-6">
+        {% if page.header.image != '' %}
+          {{ page.media.images[page.header.image].html() }}
+        {% endif %}
+      </div>  <!-- EOF col -->
+      <div class="col-md-6">
+        <p>
+          {{header.text | markdown}}
+        </p>
+      </div>  <!-- EOF col -->
+    {% endif %}
+    </div>  <!-- EOF row -->
+
+</div>

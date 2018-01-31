@@ -1,0 +1,40 @@
+title: Blog
+'@extends':
+        type: default
+
+form:
+    fields:
+        tabs:
+            type: tabs
+            active: 1
+            fields:
+                map:
+                    type: tab
+                    title: Blog
+                    fields:
+                        header.posts:
+                                type: list
+                                title: posts
+                                fields: 
+                                    .author:
+                                        type: text
+                                        title: author
+                                        label: author
+                                    .image:
+                                        type: filepicker
+                                        preview_images: true
+                                        acccept:
+                                            - .png
+                                            - .jpg
+                                            - .gif
+                                        label: Image
+                                    .heading:
+                                        type: text
+                                        title: Heading
+                                        label: Heading
+                                    .text:
+                                        type: editor
+                                        title: text
+                                        label: text
+                       
+                 

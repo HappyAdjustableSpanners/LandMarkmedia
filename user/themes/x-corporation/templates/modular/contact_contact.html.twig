@@ -1,0 +1,79 @@
+<script src="https://maps.googleapis.com/maps/api/js?key={{ page.header.api_key }}"></script>
+<div class="container bg-white"> 
+
+    <!-- First row -->
+    <div class="row margin-top-50 margin-bottom-20">
+        <div class="col-md-6">
+            <h1>Contact Form</h1>
+            
+        </div> <!-- Eof col -->
+        <div class="col-md-6">
+            <h1>Google Map</h1>
+        </div> <!-- Eof col -->
+    </div> <!-- Eof row -->
+
+    <!-- Second row -->
+    <div class="row">
+        <div class="col-md-6">
+            <p>Lorum el ipsum sit amet, consectetur</p>
+        </div> <!-- Eof col -->
+        <div class="col-md-6">
+             <div id="googleMap">
+                <script>
+                    jQuery(function ($) {
+                        'use strict';
+
+                        (function () {
+
+                            if ($('#googleMap').length > 0) {
+
+                                var $latitude = {{ page.header.latitude + 0 }},
+                                    $longitude = {{ page.header.longitude + 0 }},
+                                    $map_zoom = {{ page.header.zoom|default('10') + 0 }};
+
+                                //google map custom marker icon
+                                var $marker_url = "{{ page.media.images[page.header.marker].url}}";
+
+                                //we define here the style of the map
+                                var style = [{
+                                    "stylers": [{
+                                        "hue": "#000"
+                                    }, {
+                                        "saturation": -100
+                                    }, {
+                                        "gamma": 2.15
+                                    }, {
+                                        "lightness": 12
+                                    }]
+                                }];
+
+                                //set google map options
+                                var map_options = {
+                                    center: new google.maps.LatLng($latitude, $longitude),
+                                    zoom: $map_zoom,
+                                    panControl: false,
+                                    zoomControl: false,
+                                    mapTypeControl: false,
+                                    streetViewControl: false,
+                                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                                    scrollwheel: false,
+                                    styles: style,
+                                }
+                                //initialize the map
+                                var map = new google.maps.Map(document.getElementById('googleMap'), map_options);
+                                //add a custom marker to the map
+                                var marker = new google.maps.Marker({
+                                    position: new google.maps.LatLng($latitude, $longitude),
+                                    map: map,
+                                    visible: true,
+                                    icon: $marker_url
+                                });
+                            }
+                        }());
+                    });
+                    </script>
+             </div> <!-- Eof Gmaps -->
+        </div> <!-- Eof col -->
+    </div> <!-- Eof row -->
+
+</div> <!-- Eof container -->

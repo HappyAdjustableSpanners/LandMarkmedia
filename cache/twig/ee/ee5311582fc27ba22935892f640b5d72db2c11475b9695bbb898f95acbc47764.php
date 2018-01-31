@@ -17,29 +17,9 @@ class __TwigTemplate_20cafe7dd4ff27e4e6a3b8c849b24b953734de49f271c5f5e8ea89d7690
     {
         // line 1
         echo "<!-- read in latest posts -->
-<ul>
 ";
-        // line 3
-        $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "find", array(0 => "/blog"), "method"), "children", array()), "order", array(0 => "date", 1 => "desc"), "method"), "slice", array(0 => 0, 1 => 5), "method"));
-        foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
-            // line 4
-            echo "    <li class=\"recent-posts\">
-        <strong><a href=\"";
-            // line 5
-            echo $this->getAttribute($context["post"], "url", array());
-            echo "\">";
-            echo $this->getAttribute($context["post"], "title", array());
-            echo "</a></strong>
-    </li>
-";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 8
-        echo "</ul>
-
+        // line 9
+        echo "
 <!-- display posts -->
 <div class=\"container-fluid text-center section\" id=\"section-posts\">
   <h1 class=\"margin-top-0\">
@@ -80,14 +60,9 @@ class __TwigTemplate_20cafe7dd4ff27e4e6a3b8c849b24b953734de49f271c5f5e8ea89d7690
         return "modular/home_posts.html.twig";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  41 => 8,  30 => 5,  27 => 4,  23 => 3,  19 => 1,);
+        return array (  22 => 9,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -101,13 +76,13 @@ class __TwigTemplate_20cafe7dd4ff27e4e6a3b8c849b24b953734de49f271c5f5e8ea89d7690
     public function getSourceContext()
     {
         return new Twig_Source("<!-- read in latest posts -->
-<ul>
+{# <ul>
 {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
     <li class=\"recent-posts\">
         <strong><a href=\"{{ post.url }}\">{{ post.title }}</a></strong>
     </li>
 {% endfor %}
-</ul>
+</ul> #}
 
 <!-- display posts -->
 <div class=\"container-fluid text-center section\" id=\"section-posts\">
