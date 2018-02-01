@@ -192,6 +192,6 @@ class __TwigTemplate_06e00dddc6e54ab00db1428c3226c51c8f3046edd8072897977bbcf8950
 
   {% endfor %}
 </div>
-</div>", "modular/home_team.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\themes\\x-corporation\\templates\\modular\\home_team.html.twig");
+</div>", "modular/home_team.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\themes\\x-corporation\\templates\\modular\\home_team.html.twig");
     }
 }

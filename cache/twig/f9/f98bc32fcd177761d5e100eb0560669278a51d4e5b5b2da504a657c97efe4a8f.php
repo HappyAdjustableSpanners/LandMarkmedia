@@ -37,17 +37,22 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
                     
                         <!-- Full Col -->
                         <div class=\"col-md-12 blog-image\">
-                            ";
+                         <a href=\"";
             // line 17
+            echo $this->getAttribute($context["post"], "url", array());
+            echo "\">
+                            ";
+            // line 18
             if (($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "image", array()) != "")) {
-                // line 18
+                // line 19
                 echo "                                ";
-                echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array()), $this->getAttribute($context["post"], "image", array()), array(), "array"), "html", array(), "method");
+                echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array()), $this->getAttribute($context["post"], "image", array()), array(), "array"), "html", array(0 => "", 1 => $this->getAttribute($context["post"], "heading", array())), "method");
                 echo "
                             ";
             }
-            // line 20
-            echo "                        </div>
+            // line 21
+            echo "                            </a>
+                        </div>
                     </div>
 
                     <!-- Title -->
@@ -55,7 +60,7 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
                         <!-- Full Col -->
                         <div class=\"col-md-12 padding-top-20\">
                             <h1>";
-            // line 27
+            // line 29
             echo $this->getAttribute($context["post"], "heading", array());
             echo "</h1>
                             <hr class=\"hr-short-red\">
@@ -65,14 +70,14 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
                     <!-- Date and author -->
                     <div class=\"row padding-top-20\">
                         <!-- Full Col -->
-                        <div class=\"col-xs-6\">
+                        <div class=\"col-sm-4\">
                                 <button class=\"blog-date\">January 29th 2018</button>
 
                         </div>
 
-                        <div class=\"col-xs-6\">
+                        <div class=\"col-sm-4\">
                                    <p>By: ";
-            // line 41
+            // line 43
             echo $this->getAttribute($context["post"], "author", array());
             echo "</p>
                         </div> 
@@ -82,20 +87,28 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
                     <div class=\"row padding-top-20\">
                         <!-- Full Col -->
                         <div class=\"col-md-12\">
-                            ";
-            // line 49
+                        <article class=\"blog-article\">
+                            <p>";
+            // line 52
             echo $this->getAttribute($context["post"], "text", array());
-            echo "}
-                            <hr class=\"hr-black\">
+            echo "}</p>
+                            </article>
                         </div>
                     </div>
 
+                     <!-- Cont reading button -->
+                            <div class=\"row padding-top-20\">
+                                 <div class=\"col-md-12\">
+                                    <button class=\"cont-reading-btn\">Continue Reading...</button>
+                                </div>
+                            </div>
+                        <hr class=\"hr-black\">
                 ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 55
+        // line 65
         echo "
             </div> <!-- Eof main blog col -->
 
@@ -104,7 +117,7 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
             <div class=\"col-md-4\">
                 <h1>Recent</h1>
                 ";
-        // line 62
+        // line 72
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["header"]) ? $context["header"] : null), "posts", array()));
         $context['loop'] = array(
@@ -121,25 +134,25 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
-            // line 63
+            // line 73
             echo "                    ";
             if (($this->getAttribute($context["loop"], "index", array()) <= 3)) {
-                // line 64
+                // line 74
                 echo "                        <!-- Img -->
                             <div class=\"row\">
                             
                                 <!-- Full Col -->
                                 <div class=\"col-md-12 blog-image\">
                                     ";
-                // line 69
+                // line 79
                 if (($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "image", array()) != "")) {
-                    // line 70
+                    // line 80
                     echo "                                        ";
                     echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array()), $this->getAttribute($context["post"], "image", array()), array(), "array"), "html", array(), "method");
                     echo "
                                     ";
                 }
-                // line 72
+                // line 82
                 echo "                                </div>
                             </div>
 
@@ -148,7 +161,7 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
                                 <!-- Full Col -->
                                 <div class=\"col-md-12 padding-top-20\">
                                     <h1>";
-                // line 79
+                // line 89
                 echo $this->getAttribute($context["post"], "heading", array());
                 echo "</h1>
                                      <hr class=\"hr-short-red\">
@@ -158,13 +171,13 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
                             <!-- Date and author -->
                             <div class=\"row padding-top-20\">
                                  <!-- Full Col -->
-                                <div class=\"col-xs-6\">
+                                <div class=\"col-sm-4\">
                                     <button class=\"blog-date\">January 29th 2018</button>
                                 </div>
 
-                                <div class=\"col-xs-6\">
+                                <div class=\"col-sm-4\">
                                    <p>By: ";
-                // line 92
+                // line 102
                 echo $this->getAttribute($context["post"], "author", array());
                 echo "</p>
                                 </div> 
@@ -174,16 +187,25 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
                             <div class=\"row  padding-top-20\">
                                 <!-- Full Col -->
                                 <div class=\"col-md-12\">
-                                    ";
-                // line 100
+                                    <article class=\"blog-article recent-article\">
+                                        <p>";
+                // line 111
                 echo $this->getAttribute($context["post"], "text", array());
-                echo "
-                                    <hr class=\"hr-black\">
+                echo "</p>
+                                    </article>                                
                                 </div>
                             </div>
+
+                            <!-- Cont reading button -->
+                            <div class=\"row padding-top-20\">
+                                <div class=\"col-md-12\">
+                                    <button class=\"cont-reading-btn\">Continue Reading...</button>
+                                </div>
+                            </div>
+                            <hr class=\"hr-black\">
                         ";
             }
-            // line 105
+            // line 124
             echo "                ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -197,7 +219,7 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 106
+        // line 125
         echo "                </div> <!-- Eof recent posts col -->
             </div>
     
@@ -217,7 +239,7 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
 
     public function getDebugInfo()
     {
-        return array (  201 => 106,  187 => 105,  179 => 100,  168 => 92,  152 => 79,  143 => 72,  137 => 70,  135 => 69,  128 => 64,  125 => 63,  108 => 62,  99 => 55,  87 => 49,  76 => 41,  59 => 27,  50 => 20,  44 => 18,  42 => 17,  35 => 12,  31 => 11,  19 => 1,);
+        return array (  223 => 125,  209 => 124,  193 => 111,  181 => 102,  165 => 89,  156 => 82,  150 => 80,  148 => 79,  141 => 74,  138 => 73,  121 => 72,  112 => 65,  93 => 52,  81 => 43,  64 => 29,  54 => 21,  48 => 19,  46 => 18,  42 => 17,  35 => 12,  31 => 11,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -246,9 +268,11 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
                     
                         <!-- Full Col -->
                         <div class=\"col-md-12 blog-image\">
+                         <a href=\"{{ post.url }}\">
                             {% if page.header.image != '' %}
-                                {{ page.media.images[post.image].html() }}
+                                {{ page.media.images[post.image].html('', post.heading) }}
                             {% endif %}
+                            </a>
                         </div>
                     </div>
 
@@ -264,12 +288,12 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
                     <!-- Date and author -->
                     <div class=\"row padding-top-20\">
                         <!-- Full Col -->
-                        <div class=\"col-xs-6\">
+                        <div class=\"col-sm-4\">
                                 <button class=\"blog-date\">January 29th 2018</button>
 
                         </div>
 
-                        <div class=\"col-xs-6\">
+                        <div class=\"col-sm-4\">
                                    <p>By: {{post.author}}</p>
                         </div> 
                     </div>
@@ -278,11 +302,19 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
                     <div class=\"row padding-top-20\">
                         <!-- Full Col -->
                         <div class=\"col-md-12\">
-                            {{post.text}}}
-                            <hr class=\"hr-black\">
+                        <article class=\"blog-article\">
+                            <p>{{post.text}}}</p>
+                            </article>
                         </div>
                     </div>
 
+                     <!-- Cont reading button -->
+                            <div class=\"row padding-top-20\">
+                                 <div class=\"col-md-12\">
+                                    <button class=\"cont-reading-btn\">Continue Reading...</button>
+                                </div>
+                            </div>
+                        <hr class=\"hr-black\">
                 {% endfor %}
 
             </div> <!-- Eof main blog col -->
@@ -316,11 +348,11 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
                             <!-- Date and author -->
                             <div class=\"row padding-top-20\">
                                  <!-- Full Col -->
-                                <div class=\"col-xs-6\">
+                                <div class=\"col-sm-4\">
                                     <button class=\"blog-date\">January 29th 2018</button>
                                 </div>
 
-                                <div class=\"col-xs-6\">
+                                <div class=\"col-sm-4\">
                                    <p>By: {{post.author}}</p>
                                 </div> 
                             </div>
@@ -329,16 +361,25 @@ class __TwigTemplate_795bfea73b28e22d035440d1935ddde373fe778e933370d4ec59057e091
                             <div class=\"row  padding-top-20\">
                                 <!-- Full Col -->
                                 <div class=\"col-md-12\">
-                                    {{post.text}}
-                                    <hr class=\"hr-black\">
+                                    <article class=\"blog-article recent-article\">
+                                        <p>{{post.text}}</p>
+                                    </article>                                
                                 </div>
                             </div>
+
+                            <!-- Cont reading button -->
+                            <div class=\"row padding-top-20\">
+                                <div class=\"col-md-12\">
+                                    <button class=\"cont-reading-btn\">Continue Reading...</button>
+                                </div>
+                            </div>
+                            <hr class=\"hr-black\">
                         {% endif %}
                 {% endfor %}
                 </div> <!-- Eof recent posts col -->
             </div>
     
     </div> <!-- Eof entire content -->
-</div><!-- Eof container -->", "modular/blog_blog.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\themes\\x-corporation\\templates\\modular\\blog_blog.html.twig");
+</div><!-- Eof container -->", "modular/blog_blog.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\themes\\x-corporation\\templates\\modular\\blog_blog.html.twig");
     }
 }

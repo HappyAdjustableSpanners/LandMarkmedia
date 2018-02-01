@@ -179,6 +179,6 @@ class __TwigTemplate_5d22347dfb32abd7505e20a592eefaa90879c2d7531e73083d0b3ff4925
         {% include 'partials/footer.html.twig' %}
     </body>
 </html>
-", "partials/base.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\themes\\x-corporation\\templates\\partials\\base.html.twig");
+", "partials/base.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\themes\\x-corporation\\templates\\partials\\base.html.twig");
     }
 }

@@ -88,6 +88,6 @@ class __TwigTemplate_fc4cf2ed1d8dd3fb1a7ffe1dd77e4f057fe56f3a5bb587d3d61d239279c
         </div>
     </a>
 </div>
-", "partials/nav-user-details.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\nav-user-details.html.twig");
+", "partials/nav-user-details.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\nav-user-details.html.twig");
     }
 }

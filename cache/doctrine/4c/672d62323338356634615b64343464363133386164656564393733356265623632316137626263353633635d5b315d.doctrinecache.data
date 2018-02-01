@@ -1,0 +1,126 @@
+1518083944
+a:2:{s:7:"content";s:5484:"<div class="container section">
+
+    <!-- Foreach member -->
+    <!-- Row -->
+    
+    <!-- Foeach row -->
+    <!-- 3 Cols -->
+
+            <div class="row member-row">
+            <div class="col-xs-1 member-icon">
+                <div class="row">
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-3 img-col">
+                  <img src="/LandMarkmedia/user/pages/10.team/_team/mconnoly.jpg" />
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <h1 class="member-name">Mark Connoly</h1>
+                </div>
+                <hr class="hr-short-red">
+                <div>
+                    <p class="member-pos">CEO</p> 
+                </div>
+                <div>
+                    <p class="member-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu f</p>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-black">
+            <div class="row member-row">
+            <div class="col-xs-1 member-icon">
+                <div class="row">
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-3 img-col">
+                  <img src="/LandMarkmedia/user/pages/10.team/_team/person.png" />
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <h1 class="member-name">Michael Greene</h1>
+                </div>
+                <hr class="hr-short-red">
+                <div>
+                    <p class="member-pos">Senior Consultant</p> 
+                </div>
+                <div>
+                    <p class="member-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-black">
+            <div class="row member-row">
+            <div class="col-xs-1 member-icon">
+                <div class="row">
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-3 img-col">
+                  <img src="/LandMarkmedia/user/pages/10.team/_team/person.png" />
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <h1 class="member-name">Guy Beresiner</h1>
+                </div>
+                <hr class="hr-short-red">
+                <div>
+                    <p class="member-pos">Senior Consultant</p> 
+                </div>
+                <div>
+                    <p class="member-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu f</p>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-black">
+            <div class="row member-row">
+            <div class="col-xs-1 member-icon">
+                <div class="row">
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-3 img-col">
+                  <img src="/LandMarkmedia/user/pages/10.team/_team/person.png" />
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <h1 class="member-name">Stuart Colman</h1>
+                </div>
+                <hr class="hr-short-red">
+                <div>
+                    <p class="member-pos">Senior Consultant</p> 
+                </div>
+                <div>
+                    <p class="member-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu f</p>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-black">
+    </div>";s:12:"content_meta";N;}

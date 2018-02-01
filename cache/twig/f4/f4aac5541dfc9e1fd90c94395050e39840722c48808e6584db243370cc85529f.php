@@ -171,6 +171,6 @@ class __TwigTemplate_63edb32789abc7caea759e2b57a5b7d6015e98fbbfb138ec172f3a60edc
     {% endif %}
     </div>  <!-- EOF row -->
 
-</div>", "modular/dual_col_text_image.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\themes\\x-corporation\\templates\\modular\\dual_col_text_image.html.twig");
+</div>", "modular/dual_col_text_image.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\themes\\x-corporation\\templates\\modular\\dual_col_text_image.html.twig");
     }
 }

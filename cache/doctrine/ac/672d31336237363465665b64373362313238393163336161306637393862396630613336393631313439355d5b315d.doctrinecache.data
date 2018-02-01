@@ -1,0 +1,317 @@
+1518088326
+a:2:{s:7:"content";s:16655:"<div class="container-fluid section bg-white">
+
+
+        <!-- Entire content -->
+        <div class="row">
+
+            <!-- main-blog column -->
+            <div class="col-md-8 border-right">
+
+            
+                                    <!-- Img -->
+                    <div class="row">
+                    
+                        <!-- Full Col -->
+                        <div class="col-md-12 blog-image">
+                                                            <img src="/LandMarkmedia/user/pages/09.blog/_blog/img.jpg" />
+                                                    </div>
+                    </div>
+
+                    <!-- Title -->
+                    <div class="row">
+                        <!-- Full Col -->
+                        <div class="col-md-12 padding-top-20">
+                            <h1>Blog title</h1>
+                            <hr class="hr-short-red">
+                        </div>
+                    </div>
+
+                    <!-- Date and author -->
+                    <div class="row padding-top-20">
+                        <!-- Full Col -->
+                        <div class="col-xs-6">
+                                <button class="blog-date">January 29th 2018</button>
+
+                        </div>
+
+                        <div class="col-xs-6">
+                                   <p>By: John Smith</p>
+                        </div> 
+                    </div>
+
+                    <!-- Text -->
+                    <div class="row padding-top-20">
+                        <!-- Full Col -->
+                        <div class="col-md-12">
+                        <article class="blog-article">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}</p>
+                            </article>
+                        </div>
+                    </div>
+
+                     <!-- Cont reading button -->
+                            <div class="row padding-top-20">
+                                 <div class="col-md-12">
+                                    <button class="cont-reading-btn">Continue Reading...</button>
+                                </div>
+                            </div>
+                        <hr class="hr-black">
+                                    <!-- Img -->
+                    <div class="row">
+                    
+                        <!-- Full Col -->
+                        <div class="col-md-12 blog-image">
+                                                            <img src="/LandMarkmedia/user/pages/09.blog/_blog/img.jpg" />
+                                                    </div>
+                    </div>
+
+                    <!-- Title -->
+                    <div class="row">
+                        <!-- Full Col -->
+                        <div class="col-md-12 padding-top-20">
+                            <h1>Yum BLogs mmmm</h1>
+                            <hr class="hr-short-red">
+                        </div>
+                    </div>
+
+                    <!-- Date and author -->
+                    <div class="row padding-top-20">
+                        <!-- Full Col -->
+                        <div class="col-xs-6">
+                                <button class="blog-date">January 29th 2018</button>
+
+                        </div>
+
+                        <div class="col-xs-6">
+                                   <p>By: Jack Track</p>
+                        </div> 
+                    </div>
+
+                    <!-- Text -->
+                    <div class="row padding-top-20">
+                        <!-- Full Col -->
+                        <div class="col-md-12">
+                        <article class="blog-article">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}</p>
+                            </article>
+                        </div>
+                    </div>
+
+                     <!-- Cont reading button -->
+                            <div class="row padding-top-20">
+                                 <div class="col-md-12">
+                                    <button class="cont-reading-btn">Continue Reading...</button>
+                                </div>
+                            </div>
+                        <hr class="hr-black">
+                                    <!-- Img -->
+                    <div class="row">
+                    
+                        <!-- Full Col -->
+                        <div class="col-md-12 blog-image">
+                                                            <img src="/LandMarkmedia/user/pages/09.blog/_blog/img.jpg" />
+                                                    </div>
+                    </div>
+
+                    <!-- Title -->
+                    <div class="row">
+                        <!-- Full Col -->
+                        <div class="col-md-12 padding-top-20">
+                            <h1>Local man on crack saves town</h1>
+                            <hr class="hr-short-red">
+                        </div>
+                    </div>
+
+                    <!-- Date and author -->
+                    <div class="row padding-top-20">
+                        <!-- Full Col -->
+                        <div class="col-xs-6">
+                                <button class="blog-date">January 29th 2018</button>
+
+                        </div>
+
+                        <div class="col-xs-6">
+                                   <p>By: Crack Man</p>
+                        </div> 
+                    </div>
+
+                    <!-- Text -->
+                    <div class="row padding-top-20">
+                        <!-- Full Col -->
+                        <div class="col-md-12">
+                        <article class="blog-article">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}</p>
+                            </article>
+                        </div>
+                    </div>
+
+                     <!-- Cont reading button -->
+                            <div class="row padding-top-20">
+                                 <div class="col-md-12">
+                                    <button class="cont-reading-btn">Continue Reading...</button>
+                                </div>
+                            </div>
+                        <hr class="hr-black">
+                
+            </div> <!-- Eof main blog col -->
+
+
+            <!-- Recent blog posts column -->
+            <div class="col-md-4">
+                <h1>Recent</h1>
+                                                            <!-- Img -->
+                            <div class="row">
+                            
+                                <!-- Full Col -->
+                                <div class="col-md-12 blog-image">
+                                                                            <img src="/LandMarkmedia/user/pages/09.blog/_blog/img.jpg" />
+                                                                    </div>
+                            </div>
+
+                            <!-- Title -->
+                            <div class="row">
+                                <!-- Full Col -->
+                                <div class="col-md-12 padding-top-20">
+                                    <h1>Blog title</h1>
+                                     <hr class="hr-short-red">
+                                </div>
+                            </div>
+
+                            <!-- Date and author -->
+                            <div class="row padding-top-20">
+                                 <!-- Full Col -->
+                                <div class="col-xs-6">
+                                    <div>
+                                        <button class="blog-date">January 29th 2018</button>
+                                    </div>
+                                    <div>
+                                     <p>By: John Smith</p>
+                                     </div>
+                                    
+                                </div>
+
+                            </div>
+
+                            <!-- Text -->
+                            <div class="row  padding-top-20">
+                                <!-- Full Col -->
+                                <div class="col-md-12">
+                                    <article class="blog-article recent-article">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                    </article>                                
+                                </div>
+                            </div>
+
+                            <!-- Cont reading button -->
+                            <div class="row padding-top-20">
+                                <div class="col-md-12">
+                                    <button class="cont-reading-btn">Continue Reading...</button>
+                                </div>
+                            </div>
+                            <hr class="hr-black">
+                                                                                    <!-- Img -->
+                            <div class="row">
+                            
+                                <!-- Full Col -->
+                                <div class="col-md-12 blog-image">
+                                                                            <img src="/LandMarkmedia/user/pages/09.blog/_blog/img.jpg" />
+                                                                    </div>
+                            </div>
+
+                            <!-- Title -->
+                            <div class="row">
+                                <!-- Full Col -->
+                                <div class="col-md-12 padding-top-20">
+                                    <h1>Yum BLogs mmmm</h1>
+                                     <hr class="hr-short-red">
+                                </div>
+                            </div>
+
+                            <!-- Date and author -->
+                            <div class="row padding-top-20">
+                                 <!-- Full Col -->
+                                <div class="col-xs-6">
+                                    <div>
+                                        <button class="blog-date">January 29th 2018</button>
+                                    </div>
+                                    <div>
+                                     <p>By: Jack Track</p>
+                                     </div>
+                                    
+                                </div>
+
+                            </div>
+
+                            <!-- Text -->
+                            <div class="row  padding-top-20">
+                                <!-- Full Col -->
+                                <div class="col-md-12">
+                                    <article class="blog-article recent-article">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                    </article>                                
+                                </div>
+                            </div>
+
+                            <!-- Cont reading button -->
+                            <div class="row padding-top-20">
+                                <div class="col-md-12">
+                                    <button class="cont-reading-btn">Continue Reading...</button>
+                                </div>
+                            </div>
+                            <hr class="hr-black">
+                                                                                    <!-- Img -->
+                            <div class="row">
+                            
+                                <!-- Full Col -->
+                                <div class="col-md-12 blog-image">
+                                                                            <img src="/LandMarkmedia/user/pages/09.blog/_blog/img.jpg" />
+                                                                    </div>
+                            </div>
+
+                            <!-- Title -->
+                            <div class="row">
+                                <!-- Full Col -->
+                                <div class="col-md-12 padding-top-20">
+                                    <h1>Local man on crack saves town</h1>
+                                     <hr class="hr-short-red">
+                                </div>
+                            </div>
+
+                            <!-- Date and author -->
+                            <div class="row padding-top-20">
+                                 <!-- Full Col -->
+                                <div class="col-xs-6">
+                                    <div>
+                                        <button class="blog-date">January 29th 2018</button>
+                                    </div>
+                                    <div>
+                                     <p>By: Crack Man</p>
+                                     </div>
+                                    
+                                </div>
+
+                            </div>
+
+                            <!-- Text -->
+                            <div class="row  padding-top-20">
+                                <!-- Full Col -->
+                                <div class="col-md-12">
+                                    <article class="blog-article recent-article">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                    </article>                                
+                                </div>
+                            </div>
+
+                            <!-- Cont reading button -->
+                            <div class="row padding-top-20">
+                                <div class="col-md-12">
+                                    <button class="cont-reading-btn">Continue Reading...</button>
+                                </div>
+                            </div>
+                            <hr class="hr-black">
+                                                        </div> <!-- Eof recent posts col -->
+            </div>
+    
+    </div> <!-- Eof entire content -->
+</div><!-- Eof container -->";s:12:"content_meta";N;}

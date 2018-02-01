@@ -1,0 +1,30 @@
+1518081840
+a:2:{s:7:"content";s:682:"<div class="container">
+
+    <!-- Foreach member -->
+    <!-- Row -->
+    
+    <!-- Foeach row -->
+    <!-- 3 Cols -->
+
+            <div class="row">
+            <div class="col-xs-1">
+
+            </div>
+            <div class="col-md-3">
+                  <img src="/LandMarkmedia/user/pages/10.team/_team/mconnoly.jpg" />
+            </div>
+            <div class="col-md-8">
+                <div>
+                    Mark Connoly
+                </div>
+                <hr class="hr-short-red">
+                <div>
+                    CEO 
+                </div>
+                <div>
+                    bla
+                </div>
+            </div>
+        </div>
+    </div>";s:12:"content_meta";N;}

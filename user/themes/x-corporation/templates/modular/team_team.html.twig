@@ -1,0 +1,40 @@
+<div class="container section">
+
+    <!-- Foreach member -->
+    <!-- Row -->
+    
+    <!-- Foeach row -->
+    <!-- 3 Cols -->
+
+    {% for member in header.members %}
+        <div class="row member-row">
+            <div class="col-xs-1 member-icon">
+                <div class="row">
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-3 img-col">
+                  {{ page.media.images[member.image].html('', member.title) }}
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <h1 class="member-name">{{member.name}}</h1>
+                </div>
+                <hr class="hr-short-red">
+                <div>
+                    <p class="member-pos">{{member.position}}</p> 
+                </div>
+                <div>
+                    <p class="member-desc">{{member.description}}</p>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-black">
+    {% endfor %}
+</div>

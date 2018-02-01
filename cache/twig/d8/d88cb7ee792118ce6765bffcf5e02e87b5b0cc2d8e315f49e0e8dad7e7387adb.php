@@ -162,6 +162,6 @@ class __TwigTemplate_6c8bafafe596189454149452eed3513542be1b76c2511801e0be03dd806
     {% endfor %}
 </script>
 {% endif %}
-", "partials/javascript-config.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\javascript-config.html.twig");
+", "partials/javascript-config.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\javascript-config.html.twig");
     }
 }

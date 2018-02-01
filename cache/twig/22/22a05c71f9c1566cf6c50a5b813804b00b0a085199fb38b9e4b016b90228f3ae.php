@@ -303,6 +303,6 @@ class __TwigTemplate_9ee39e93a166033c2887620fa2bdd947ce811f03f94d0ee890f7ab2b458
         </div>
     </div>
 </nav>
-", "partials/navbar.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\themes\\x-corporation\\templates\\partials\\navbar.html.twig");
+", "partials/navbar.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\themes\\x-corporation\\templates\\partials\\navbar.html.twig");
     }
 }

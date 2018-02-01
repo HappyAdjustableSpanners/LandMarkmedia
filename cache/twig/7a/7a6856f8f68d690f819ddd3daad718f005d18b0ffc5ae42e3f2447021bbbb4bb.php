@@ -177,6 +177,6 @@ class __TwigTemplate_35fb8032c89859d6d43e0237fb3b07eb4b021dc0f85ee72b2d7d84a5812
         crossorigin=\"anonymous\"></script>
 {% endblock %}
 {% endblock head %}
-", "partials/head.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\themes\\x-corporation\\templates\\partials\\head.html.twig");
+", "partials/head.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\themes\\x-corporation\\templates\\partials\\head.html.twig");
     }
 }

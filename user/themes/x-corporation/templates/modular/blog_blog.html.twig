@@ -14,9 +14,11 @@
                     
                         <!-- Full Col -->
                         <div class="col-md-12 blog-image">
+                         <a href="{{ post.url }}">
                             {% if page.header.image != '' %}
-                                {{ page.media.images[post.image].html() }}
+                                {{ page.media.images[post.image].html('', post.heading) }}
                             {% endif %}
+                            </a>
                         </div>
                     </div>
 
@@ -32,12 +34,12 @@
                     <!-- Date and author -->
                     <div class="row padding-top-20">
                         <!-- Full Col -->
-                        <div class="col-xs-6">
+                        <div class="col-sm-4">
                                 <button class="blog-date">January 29th 2018</button>
 
                         </div>
 
-                        <div class="col-xs-6">
+                        <div class="col-sm-4">
                                    <p>By: {{post.author}}</p>
                         </div> 
                     </div>
@@ -46,11 +48,19 @@
                     <div class="row padding-top-20">
                         <!-- Full Col -->
                         <div class="col-md-12">
-                            {{post.text}}}
-                            <hr class="hr-black">
+                        <article class="blog-article">
+                            <p>{{post.text}}}</p>
+                            </article>
                         </div>
                     </div>
 
+                     <!-- Cont reading button -->
+                            <div class="row padding-top-20">
+                                 <div class="col-md-12">
+                                    <button class="cont-reading-btn">Continue Reading...</button>
+                                </div>
+                            </div>
+                        <hr class="hr-black">
                 {% endfor %}
 
             </div> <!-- Eof main blog col -->
@@ -84,11 +94,11 @@
                             <!-- Date and author -->
                             <div class="row padding-top-20">
                                  <!-- Full Col -->
-                                <div class="col-xs-6">
+                                <div class="col-sm-4">
                                     <button class="blog-date">January 29th 2018</button>
                                 </div>
 
-                                <div class="col-xs-6">
+                                <div class="col-sm-4">
                                    <p>By: {{post.author}}</p>
                                 </div> 
                             </div>
@@ -97,10 +107,19 @@
                             <div class="row  padding-top-20">
                                 <!-- Full Col -->
                                 <div class="col-md-12">
-                                    {{post.text}}
-                                    <hr class="hr-black">
+                                    <article class="blog-article recent-article">
+                                        <p>{{post.text}}</p>
+                                    </article>                                
                                 </div>
                             </div>
+
+                            <!-- Cont reading button -->
+                            <div class="row padding-top-20">
+                                <div class="col-md-12">
+                                    <button class="cont-reading-btn">Continue Reading...</button>
+                                </div>
+                            </div>
+                            <hr class="hr-black">
                         {% endif %}
                 {% endfor %}
                 </div> <!-- Eof recent posts col -->

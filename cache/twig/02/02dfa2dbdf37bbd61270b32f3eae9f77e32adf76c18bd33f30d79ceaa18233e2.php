@@ -65,6 +65,6 @@ class __TwigTemplate_3f92ca98864414f91ad1889a70152295aeaa1ea08049529ed13f39a4a9b
     <h1 id=\"main-title\">{{ page.header.heading }}</h1>
     <p>{{ page.header.subheading }}</p>
   </div>
-</div>", "modular/hero-image.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\themes\\x-corporation\\templates\\modular\\hero-image.html.twig");
+</div>", "modular/hero-image.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\themes\\x-corporation\\templates\\modular\\hero-image.html.twig");
     }
 }

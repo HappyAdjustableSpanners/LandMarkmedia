@@ -116,6 +116,6 @@ class __TwigTemplate_20cafe7dd4ff27e4e6a3b8c849b24b953734de49f271c5f5e8ea89d7690
     </div>
   </div>
 </div>
-", "modular/home_posts.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\themes\\x-corporation\\templates\\modular\\home_posts.html.twig");
+", "modular/home_posts.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\themes\\x-corporation\\templates\\modular\\home_posts.html.twig");
     }
 }

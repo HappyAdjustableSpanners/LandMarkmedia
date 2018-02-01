@@ -229,6 +229,6 @@ class __TwigTemplate_ab06b3784c8d19ca07480f1eb2b19355cf8b69335d3a4b1c4c06213d392
         </div>
     </div>
 </footer>
-", "partials/footer.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\themes\\x-corporation\\templates\\partials\\footer.html.twig");
+", "partials/footer.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\themes\\x-corporation\\templates\\partials\\footer.html.twig");
     }
 }

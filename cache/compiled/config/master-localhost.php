@@ -1,89 +1,93 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1517411678,
-    'checksum' => 'cf5013b09d3debd751488aa0006f7c00',
+    'timestamp' => 1517481081,
+    'checksum' => 'b8d165674182d82914ddbb6f2d2de7f3',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1516701026
+                'modified' => 1517473115
+            ],
+            'plugins/form' => [
+                'file' => 'user/config/plugins/form.yaml',
+                'modified' => 1517481053
             ],
             'plugins/google-maps' => [
                 'file' => 'user/config/plugins/google-maps.yaml',
-                'modified' => 1517406244
+                'modified' => 1517473115
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1516701023
+                'modified' => 1517473115
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1516700829
+                'modified' => 1517473115
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1516701026
+                'modified' => 1517473115
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1517411676
+                'modified' => 1517476438
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1516700818
+                'modified' => 1517473115
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1516700818
+                'modified' => 1517473115
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1516700818
+                'modified' => 1517473115
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1516700818
+                'modified' => 1517473115
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1516700830
+                'modified' => 1517473115
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1516700859
+                'modified' => 1517473116
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1516700829
+                'modified' => 1517473116
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1516722717
+                'modified' => 1517481080
             ],
             'plugins/google-maps' => [
                 'file' => 'user/plugins/google-maps/google-maps.yaml',
-                'modified' => 1517406184
+                'modified' => 1517473116
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1516700869
+                'modified' => 1517473116
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1516700829
+                'modified' => 1517473116
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1516700830
+                'modified' => 1517473116
             ],
             'plugins/shortcode-core' => [
                 'file' => 'user/plugins/shortcode-core/shortcode-core.yaml',
-                'modified' => 1517406158
+                'modified' => 1517473116
             ]
         ]
     ],

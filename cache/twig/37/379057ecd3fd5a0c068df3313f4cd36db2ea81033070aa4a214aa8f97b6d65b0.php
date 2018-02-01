@@ -511,6 +511,6 @@ class __TwigTemplate_155309ecff152fc3ca479609aa91c9571590091f0cc9538f16de16b6bb8
     {% endblock body %}
     </html>
 {% endif %}
-", "partials/base-root.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\base-root.html.twig");
+", "partials/base-root.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\base-root.html.twig");
     }
 }
