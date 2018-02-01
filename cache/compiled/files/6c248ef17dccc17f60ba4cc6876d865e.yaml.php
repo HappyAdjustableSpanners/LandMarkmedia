@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/user/plugins/shortcode-core/blueprints.yaml',
-    'modified' => 1517473116,
+    'modified' => 1517487461,
     'data' => [
         'name' => 'Shortcode Core',
         'version' => '2.7.0',

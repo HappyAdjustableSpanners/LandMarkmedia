@@ -1,0 +1,33 @@
+{# {% set img = (../img.jpg) %} #}
+<div class="hero-image" style="background-image: url({{ 'img.jpg' }});">
+    <div class="hero-text">
+    <h1 id="main-title">Blog</h1>
+    <p>Lorum el Ipsum</p>
+  </div>
+</div>
+
+	{% embed 'partials/base.html.twig' %}
+
+		{% block content %}
+			{% if config.plugins.breadcrumbs.enabled %}
+				{% include 'partials/breadcrumbs.html.twig' %}
+			{% endif %}
+			<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="blog-content-item grid pure-g-r">
+						<div id="item" class="block pure-u-2-3 h-entry">
+							{% include 'partials/blog_item.html.twig' with {'blog':page.parent, 'truncate':false} %}
+						</div>
+				    </div>
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+			</div>
+
+			
+			
+		{% endblock %}
+
+	{% endembed %}

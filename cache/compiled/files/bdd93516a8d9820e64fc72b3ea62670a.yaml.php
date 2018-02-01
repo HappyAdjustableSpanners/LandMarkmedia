@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/user/plugins/admin/languages/sl.yaml',
-    'modified' => 1517473115,
+    'modified' => 1517487460,
     'data' => [
         'PLUGIN_ADMIN' => [
             'LOGIN_BTN' => 'Prijava',

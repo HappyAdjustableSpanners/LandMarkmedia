@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/system/languages/da.yaml',
-    'modified' => 1517473115,
+    'modified' => 1517487460,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '---
 Titel: %1$s

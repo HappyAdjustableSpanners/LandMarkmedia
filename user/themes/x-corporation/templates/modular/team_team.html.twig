@@ -1,4 +1,4 @@
-<div class="container section">
+<div class="container-fluid section">
 
     <!-- Foreach member -->
     <!-- Row -->
@@ -31,7 +31,7 @@
                     <p class="member-pos">{{member.position}}</p> 
                 </div>
                 <div>
-                    <p class="member-desc">{{member.description}}</p>
+                    <p class="member-desc">{{member.description | markdown}}</p>
                 </div>
             </div>
         </div>

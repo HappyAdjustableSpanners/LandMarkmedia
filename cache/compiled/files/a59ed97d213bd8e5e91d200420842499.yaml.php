@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/user/plugins/admin/blueprints/admin/pages/modular_new.yaml',
-    'modified' => 1517473115,
+    'modified' => 1517487460,
     'data' => [
         'rules' => [
             'slug' => [

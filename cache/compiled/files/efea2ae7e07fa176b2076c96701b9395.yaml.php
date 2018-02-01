@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/user/themes/x-corporation/blueprints/modular/team_team.yaml',
-    'modified' => 1517475877,
+    'modified' => 1517487461,
     'data' => [
         'title' => 'Team',
         '@extends' => [

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/user/config/plugins/form.yaml',
-    'modified' => 1517481053,
+    'modified' => 1517487460,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,

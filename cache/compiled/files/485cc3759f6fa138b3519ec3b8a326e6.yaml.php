@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/user/plugins/error/languages.yaml',
-    'modified' => 1517473116,
+    'modified' => 1517487461,
     'data' => [
         'en' => [
             'PLUGIN_ERROR' => [
