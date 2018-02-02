@@ -1,10 +1,4 @@
 {# {% set img = (../img.jpg) %} #}
-<div class="hero-image" style="background-image: url({{ 'img.jpg' }});">
-    <div class="hero-text">
-    <h1 id="main-title">Blog</h1>
-    <p>Lorum el Ipsum</p>
-  </div>
-</div>
 
 	{% embed 'partials/base.html.twig' %}
 
@@ -12,6 +6,13 @@
 			{% if config.plugins.breadcrumbs.enabled %}
 				{% include 'partials/breadcrumbs.html.twig' %}
 			{% endif %}
+			<div class="hero-image" style="background-image: url({{ 'img.jpg' }});">
+    			<div class="hero-text">
+    				<h1 id="main-title">Blog</h1>
+    				<p>Lorum el Ipsum</p>
+  				</div>
+			</div>
+
 			<div class="container">
 			<div class="row">
 				<div class="col-md-8">
@@ -21,7 +22,14 @@
 						</div>
 				    </div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-1"></div>
+				<div class="col-md-3">
+					<h1 id="recent-posts-title">Recent</h1>
+					{% for p in page.find('/blog').children.order('date', 'desc').slice(0,5) %}
+						{% if loop.index <= 3 %}
+							{% include 'partials/blog_item.html.twig' with {'blog':page, 'page':p, 'truncate':true} %}
+						{% endif %}
+					{% endfor %}
 				</div>
 			</div>
 			</div>

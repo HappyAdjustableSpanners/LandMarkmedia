@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/system/languages/sv.yaml',
-    'modified' => 1517487460,
+    'modified' => 1517562369,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '--- titel: %1$s --- # Fel: Ogiltig Frontmatter-sökväg: `%2$s` **%3$s** ``` %4$s ```',
         'NICETIME' => [

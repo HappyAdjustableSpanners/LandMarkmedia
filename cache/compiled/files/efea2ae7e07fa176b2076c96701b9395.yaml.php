@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/user/themes/x-corporation/blueprints/modular/team_team.yaml',
-    'modified' => 1517487461,
+    'modified' => 1517579748,
     'data' => [
         'title' => 'Team',
         '@extends' => [
@@ -53,6 +53,21 @@ return [
                                         '.description' => [
                                             'type' => 'editor',
                                             'label' => 'Description'
+                                        ],
+                                        '.facebookurl' => [
+                                            'type' => 'text',
+                                            'title' => 'Facebook URL',
+                                            'label' => 'Facebook URL'
+                                        ],
+                                        '.twitterurl' => [
+                                            'type' => 'text',
+                                            'title' => 'twitter URL',
+                                            'label' => 'twitter URL'
+                                        ],
+                                        '.linkedinurl' => [
+                                            'type' => 'text',
+                                            'title' => 'linkedin URL',
+                                            'label' => 'linkedin URL'
                                         ]
                                     ]
                                 ]

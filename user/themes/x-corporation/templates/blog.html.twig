@@ -1,10 +1,5 @@
 {% set img = page.media.images|first %}
-<div class="hero-image" style="background-image: url({{ img.url }});">
-    <div class="hero-text">
-    <h1 id="main-title">{{ page.header.heading }}</h1>
-    <p>{{ page.header.subheading }}</p>
-  </div>
-</div>
+
 
 
 {% embed 'partials/base.html.twig' %}
@@ -19,6 +14,13 @@
 		{% else %}
 		<div class="blog-header">
 		{% endif %}
+		<div class="hero-image" style="background-image: url({{ img.url }});">
+    		<div class="hero-text">
+    			<h1 id="main-title">{{ page.header.heading }}</h1>
+    			<p>{{ page.header.subheading }}</p>
+				<a><button class="btn-styled margin-top-20">Send free enquiry <i class="fa fa-envelope fa-lg "></i></button></a>
+  			</div>
+		</div>
 			{{ page.content }}
 		</div>
 
@@ -40,13 +42,14 @@
 						</div>
 					</div>
 				</div> <!-- eof col -->
-				<div class="col-md-4">
-					
+				<div class="col-md-1"></div>
+				<div class="col-md-3">
 					<div class="content-wrapper blog-content-list grid pure-g">
+						<h1 id="recent-posts-title">Recent</h1>
 						<div id="listing" class="block pure-u-2-3 h-feed">
-							{% for child in collection %}
+							{% for p in page.find('/blog').children.order('date', 'desc').slice(0,5) %}
 								{% if loop.index <= 3 %}
-								{% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+									{% include 'partials/blog_item.html.twig' with {'blog':page, 'page':p, 'truncate':true} %}
 								{% endif %}
 							{% endfor %}
 						</div>

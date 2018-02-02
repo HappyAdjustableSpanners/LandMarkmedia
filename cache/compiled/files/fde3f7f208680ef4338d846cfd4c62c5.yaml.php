@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/system/languages/hu.yaml',
-    'modified' => 1517487460,
+    'modified' => 1517562369,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '---
 cím: %1$s

@@ -42,4 +42,16 @@ form:
                                 .description: 
                                     type: editor
                                     label: Description
+                                .facebookurl:
+                                    type: text
+                                    title: Facebook URL
+                                    label: Facebook URL
+                                .twitterurl:
+                                    type: text
+                                    title: twitter URL
+                                    label: twitter URL
+                                .linkedinurl:
+                                    type: text
+                                    title: linkedin URL
+                                    label: linkedin URL
                                     

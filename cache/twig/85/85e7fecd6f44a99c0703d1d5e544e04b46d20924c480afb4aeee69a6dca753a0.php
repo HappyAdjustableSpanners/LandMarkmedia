@@ -57,7 +57,7 @@ class __TwigTemplate_7e48ffa496b943b620adb56939e78b082b3aa677116d8bfcef01616f1b8
                 <div class=\"member-card\">
                     
                     <!-- img -->
-                    <a class=\"border-radius-50 team-img\">
+                    <a href=\"/LandmarkMedia/team\" class=\"border-radius-50 team-img\">
                         ";
             // line 17
             echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array()), $this->getAttribute($context["member"], "image", array()), array(), "array"), "html", array(0 => "", 1 => $this->getAttribute($context["member"], "name", array())), "method");
@@ -80,13 +80,22 @@ class __TwigTemplate_7e48ffa496b943b620adb56939e78b082b3aa677116d8bfcef01616f1b8
 
                     <div class=\"row\">
                         <div class=\"col-xs-offset-3 col-xs-2 team-icon\">
-                            <i class=\"fa fa-facebook\" aria-hidden=\"true\"></i>
+                            <a href=\"";
+            // line 27
+            echo $this->getAttribute($context["member"], "facebookurl", array());
+            echo "\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>
                         </div>
                         <div class=\"col-xs-2 team-icon\">
-                             <i class=\"fa fa-twitter\" aria-hidden=\"true\"></i>
+                            <a href=\"";
+            // line 30
+            echo $this->getAttribute($context["member"], "twitterurl", array());
+            echo "\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>
                         </div>
                         <div class=\"col-xs-2 team-icon\">
-                            <i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i>
+                            <a href=\"";
+            // line 33
+            echo $this->getAttribute($context["member"], "linkedinurl", array());
+            echo "\"><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i></a>
                         </div>
 
                     </div>
@@ -133,7 +142,7 @@ class __TwigTemplate_7e48ffa496b943b620adb56939e78b082b3aa677116d8bfcef01616f1b8
 
     public function getDebugInfo()
     {
-        return array (  120 => 46,  105 => 44,  101 => 42,  99 => 41,  78 => 23,  74 => 22,  70 => 21,  63 => 17,  56 => 12,  52 => 10,  50 => 9,  47 => 8,  30 => 7,  25 => 5,  19 => 1,);
+        return array (  129 => 46,  114 => 44,  110 => 42,  108 => 41,  97 => 33,  91 => 30,  85 => 27,  78 => 23,  74 => 22,  70 => 21,  63 => 17,  56 => 12,  52 => 10,  50 => 9,  47 => 8,  30 => 7,  25 => 5,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -161,7 +170,7 @@ class __TwigTemplate_7e48ffa496b943b620adb56939e78b082b3aa677116d8bfcef01616f1b8
                 <div class=\"member-card\">
                     
                     <!-- img -->
-                    <a class=\"border-radius-50 team-img\">
+                    <a href=\"/LandmarkMedia/team\" class=\"border-radius-50 team-img\">
                         {{ page.media.images[member.image].html('', member.name) }}
                     </a>
 
@@ -172,13 +181,13 @@ class __TwigTemplate_7e48ffa496b943b620adb56939e78b082b3aa677116d8bfcef01616f1b8
 
                     <div class=\"row\">
                         <div class=\"col-xs-offset-3 col-xs-2 team-icon\">
-                            <i class=\"fa fa-facebook\" aria-hidden=\"true\"></i>
+                            <a href=\"{{member.facebookurl}}\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>
                         </div>
                         <div class=\"col-xs-2 team-icon\">
-                             <i class=\"fa fa-twitter\" aria-hidden=\"true\"></i>
+                            <a href=\"{{member.twitterurl}}\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>
                         </div>
                         <div class=\"col-xs-2 team-icon\">
-                            <i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i>
+                            <a href=\"{{member.linkedinurl}}\"><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i></a>
                         </div>
 
                     </div>

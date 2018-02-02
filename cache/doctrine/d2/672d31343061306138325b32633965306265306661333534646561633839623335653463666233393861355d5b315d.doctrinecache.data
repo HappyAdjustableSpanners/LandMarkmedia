@@ -1,0 +1,138 @@
+1518170349
+a:2:{s:7:"content";s:6343:"<div class="container-fluid section">
+
+    <!-- Foreach member -->
+    <!-- Row -->
+    
+    <!-- Foeach row -->
+    <!-- 3 Cols -->
+
+            <div class="row member-row">
+            <div class="col-xs-1 member-icon">
+                <div class="row">
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-3 img-col">
+                  <img src="/LandMarkmedia/user/pages/05.team/_team/mconnoly.jpg" />
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <h1 class="member-name">Mark Connoly</h1>
+                </div>
+                <hr class="hr-short-red">
+                <div>
+                    <p class="member-pos">CEO</p> 
+                </div>
+                <div>
+                    <p class="member-desc"><p><strong>Mark Connolly</strong> has been in the marketing and media industry since 1988. Having held senior
+positions at media owners (GMTV, Sky, ids/Virgin Media, Yahoo!), data and technology companies
+(WPP’s The Media Innovation Group, AudienceScience) and most recently Chief Investment
+Officer at advertising agency Havas Media Group, Mark provides a unique insight having C Level
+board experience from the advertising agency, intermediary and media owner perspectives and
+has held UK, European and Global media roles.</p>
+<p>Having been in commercial trading and negotiation for most of his career, Mark has extensive
+experience in understanding the challenges and, most importantly, solutions that can benefit
+advertisers, media agencies and media owners. At Havas Mark was responsible for all media
+trading and negotiation, a team of 250 media planners and buyers and had executive responsibility
+for more than £500 million of advertisers’ media investment.
+In 2017 Mark established Landmark Media Ltd, an independent media consultancy specifically
+developed to advise advertisers on how to better navigate the media landscape.</p></p>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-black">
+            <div class="row member-row">
+            <div class="col-xs-1 member-icon">
+                <div class="row">
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-3 img-col">
+                  <img src="/LandMarkmedia/user/pages/05.team/_team/person.png" />
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <h1 class="member-name">Michael Greene</h1>
+                </div>
+                <hr class="hr-short-red">
+                <div>
+                    <p class="member-pos">Senior Consultant</p> 
+                </div>
+                <div>
+                    <p class="member-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p></p>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-black">
+            <div class="row member-row">
+            <div class="col-xs-1 member-icon">
+                <div class="row">
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-3 img-col">
+                  <img src="/LandMarkmedia/user/pages/05.team/_team/person.png" />
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <h1 class="member-name">Guy Beresiner</h1>
+                </div>
+                <hr class="hr-short-red">
+                <div>
+                    <p class="member-pos">Senior Consultant</p> 
+                </div>
+                <div>
+                    <p class="member-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu f</p></p>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-black">
+            <div class="row member-row">
+            <div class="col-xs-1 member-icon">
+                <div class="row">
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="row">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-3 img-col">
+                  <img src="/LandMarkmedia/user/pages/05.team/_team/person.png" />
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <h1 class="member-name">Stuart Colman</h1>
+                </div>
+                <hr class="hr-short-red">
+                <div>
+                    <p class="member-pos">Senior Consultant</p> 
+                </div>
+                <div>
+                    <p class="member-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu f</p></p>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-black">
+    </div>";s:12:"content_meta";N;}

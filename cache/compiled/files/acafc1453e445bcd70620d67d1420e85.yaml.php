@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/system/blueprints/pages/default.yaml',
-    'modified' => 1517487460,
+    'modified' => 1517562369,
     'data' => [
         'title' => 'PLUGIN_ADMIN.DEFAULT',
         'rules' => [

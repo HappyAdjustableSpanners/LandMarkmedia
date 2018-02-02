@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/user/themes/x-corporation/blueprints.yaml',
-    'modified' => 1517487461,
+    'modified' => 1517562371,
     'data' => [
         'name' => 'X-Corporation',
         'description' => 'Grav Theme based on X-Corporation HTML theme of uiCookies.',

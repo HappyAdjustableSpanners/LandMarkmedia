@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/user/plugins/login/languages/hr.yaml',
-    'modified' => 1517487461,
+    'modified' => 1517562371,
     'data' => [
         'PLUGIN_LOGIN' => [
             'ACCESS_DENIED' => 'Pristup odbijen...',

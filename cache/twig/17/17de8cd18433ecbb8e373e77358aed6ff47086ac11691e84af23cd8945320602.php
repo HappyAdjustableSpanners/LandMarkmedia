@@ -16,7 +16,7 @@ class __TwigTemplate_64de4c5ea8e3b1f6a9ac88d6a3863f71c50524bc0018e8dbcd1c1f3d641
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div class=\"container-fluid text-center section\" id=\"section-about\">
+        echo "<div class=\"container-fluid text-center section bg-blue\">
 
   <div class=\"row align-text-left about-dual-col\">
     <div class=\"col-md-6 margin-bottom-20\">
@@ -78,7 +78,7 @@ class __TwigTemplate_64de4c5ea8e3b1f6a9ac88d6a3863f71c50524bc0018e8dbcd1c1f3d641
 
     public function getSourceContext()
     {
-        return new Twig_Source("<div class=\"container-fluid text-center section\" id=\"section-about\">
+        return new Twig_Source("<div class=\"container-fluid text-center section bg-blue\">
 
   <div class=\"row align-text-left about-dual-col\">
     <div class=\"col-md-6 margin-bottom-20\">

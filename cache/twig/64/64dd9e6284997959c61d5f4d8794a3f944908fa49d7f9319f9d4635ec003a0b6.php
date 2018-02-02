@@ -33,13 +33,22 @@ class __TwigTemplate_2816b837df3ad2e795a4a62ad6764e22c8786d61e2aba4236daeb719d4c
             echo "        <div class=\"row member-row\">
             <div class=\"col-xs-1 member-icon\">
                 <div class=\"row\">
-                    <i class=\"fa fa-facebook\"></i>
+                    <a href=\"";
+            // line 13
+            echo $this->getAttribute($context["member"], "facebookurl", array());
+            echo "\"><i class=\"fa fa-facebook\"></i></a>
                 </div>
                 <div class=\"row\">
-                    <i class=\"fa fa-twitter\"></i>
+                    <a href=\"";
+            // line 16
+            echo $this->getAttribute($context["member"], "twitterurl", array());
+            echo "\"><i class=\"fa fa-twitter\"></i></a>
                 </div>
                 <div class=\"row\">
-                    <i class=\"fa fa-linkedin\"></i>
+                    <a href=\"";
+            // line 19
+            echo $this->getAttribute($context["member"], "linkedinurl", array());
+            echo "\"><i class=\"fa fa-linkedin\"></i></a>
                 </div>
             </div>
             <div class=\"col-md-3 img-col\">
@@ -92,7 +101,7 @@ class __TwigTemplate_2816b837df3ad2e795a4a62ad6764e22c8786d61e2aba4236daeb719d4c
 
     public function getDebugInfo()
     {
-        return array (  80 => 40,  68 => 34,  62 => 31,  55 => 27,  48 => 23,  33 => 10,  29 => 9,  19 => 1,);
+        return array (  89 => 40,  77 => 34,  71 => 31,  64 => 27,  57 => 23,  50 => 19,  44 => 16,  38 => 13,  33 => 10,  29 => 9,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -117,13 +126,13 @@ class __TwigTemplate_2816b837df3ad2e795a4a62ad6764e22c8786d61e2aba4236daeb719d4c
         <div class=\"row member-row\">
             <div class=\"col-xs-1 member-icon\">
                 <div class=\"row\">
-                    <i class=\"fa fa-facebook\"></i>
+                    <a href=\"{{member.facebookurl}}\"><i class=\"fa fa-facebook\"></i></a>
                 </div>
                 <div class=\"row\">
-                    <i class=\"fa fa-twitter\"></i>
+                    <a href=\"{{member.twitterurl}}\"><i class=\"fa fa-twitter\"></i></a>
                 </div>
                 <div class=\"row\">
-                    <i class=\"fa fa-linkedin\"></i>
+                    <a href=\"{{member.linkedinurl}}\"><i class=\"fa fa-linkedin\"></i></a>
                 </div>
             </div>
             <div class=\"col-md-3 img-col\">

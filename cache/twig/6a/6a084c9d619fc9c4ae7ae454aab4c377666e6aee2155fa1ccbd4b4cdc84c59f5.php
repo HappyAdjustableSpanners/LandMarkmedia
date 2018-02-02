@@ -18,26 +18,13 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
         // line 1
         $context["img"] = twig_first($this->env, $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array()));
         // line 2
-        echo "<div class=\"hero-image\" style=\"background-image: url(";
-        echo $this->getAttribute((isset($context["img"]) ? $context["img"] : null), "url", array());
-        echo ");\">
-    <div class=\"hero-text\">
-    <h1 id=\"main-title\">";
-        // line 4
-        echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "heading", array());
-        echo "</h1>
-    <p>";
-        // line 5
-        echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "subheading", array());
-        echo "</p>
-  </div>
-</div>
+        echo "
 
 
 ";
-        // line 10
-        $this->loadTemplate("blog.html.twig", "blog.html.twig", 10, "1009238732")->display($context);
-        // line 61
+        // line 5
+        $this->loadTemplate("blog.html.twig", "blog.html.twig", 5, "1709673372")->display($context);
+        // line 64
         echo "
 
 ";
@@ -55,7 +42,7 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 
     public function getDebugInfo()
     {
-        return array (  41 => 61,  39 => 10,  31 => 5,  27 => 4,  21 => 2,  19 => 1,);
+        return array (  28 => 64,  26 => 5,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -69,12 +56,7 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
     public function getSourceContext()
     {
         return new Twig_Source("{% set img = page.media.images|first %}
-<div class=\"hero-image\" style=\"background-image: url({{ img.url }});\">
-    <div class=\"hero-text\">
-    <h1 id=\"main-title\">{{ page.header.heading }}</h1>
-    <p>{{ page.header.subheading }}</p>
-  </div>
-</div>
+
 
 
 {% embed 'partials/base.html.twig' %}
@@ -89,6 +71,13 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 \t\t{% else %}
 \t\t<div class=\"blog-header\">
 \t\t{% endif %}
+\t\t<div class=\"hero-image\" style=\"background-image: url({{ img.url }});\">
+    \t\t<div class=\"hero-text\">
+    \t\t\t<h1 id=\"main-title\">{{ page.header.heading }}</h1>
+    \t\t\t<p>{{ page.header.subheading }}</p>
+\t\t\t\t<a><button class=\"btn-styled margin-top-20\">Send free enquiry <i class=\"fa fa-envelope fa-lg \"></i></button></a>
+  \t\t\t</div>
+\t\t</div>
 \t\t\t{{ page.content }}
 \t\t</div>
 
@@ -110,13 +99,14 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div> <!-- eof col -->
-\t\t\t\t<div class=\"col-md-4\">
-\t\t\t\t\t
+\t\t\t\t<div class=\"col-md-1\"></div>
+\t\t\t\t<div class=\"col-md-3\">
 \t\t\t\t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
+\t\t\t\t\t\t<h1 id=\"recent-posts-title\">Recent</h1>
 \t\t\t\t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">
-\t\t\t\t\t\t\t{% for child in collection %}
+\t\t\t\t\t\t\t{% for p in page.find('/blog').children.order('date', 'desc').slice(0,5) %}
 \t\t\t\t\t\t\t\t{% if loop.index <= 3 %}
-\t\t\t\t\t\t\t\t{% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+\t\t\t\t\t\t\t\t\t{% include 'partials/blog_item.html.twig' with {'blog':page, 'page':p, 'truncate':true} %}
 \t\t\t\t\t\t\t\t{% endif %}
 \t\t\t\t\t\t\t{% endfor %}
 \t\t\t\t\t\t</div>
@@ -136,14 +126,14 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 
 
 /* blog.html.twig */
-class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec604562e_1009238732 extends Twig_Template
+class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec604562e_1709673372 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
         parent::__construct($env);
 
-        // line 10
-        $this->parent = $this->loadTemplate("partials/base.html.twig", "blog.html.twig", 10);
+        // line 5
+        $this->parent = $this->loadTemplate("partials/base.html.twig", "blog.html.twig", 5);
         $this->blocks = array(
             'content' => array($this, 'block_content'),
         );
@@ -156,56 +146,72 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        // line 12
+        // line 7
         $context["collection"] = $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "collection", array(), "method");
-        // line 10
+        // line 5
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 14
+    // line 9
     public function block_content($context, array $blocks = array())
     {
-        // line 15
+        // line 10
         echo "\t\t";
         $context["blog_image"] = $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(twig_first($this->env, $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array())), "grayscale", array(), "method"), "contrast", array(0 => 20), "method"), "brightness", array(0 =>  -100), "method"), "colorize", array(0 =>  -35, 1 => 81, 2 => 122), "method");
-        // line 16
+        // line 11
         echo "
 \t\t";
-        // line 17
+        // line 12
         if ((isset($context["blog_image"]) ? $context["blog_image"] : null)) {
-            // line 18
+            // line 13
             echo "\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url(";
             echo $this->getAttribute((isset($context["blog_image"]) ? $context["blog_image"] : null), "url", array());
             echo ");\">
 \t\t";
         } else {
-            // line 20
+            // line 15
             echo "\t\t<div class=\"blog-header\">
 \t\t";
         }
-        // line 22
-        echo "\t\t\t";
+        // line 17
+        echo "\t\t<div class=\"hero-image\" style=\"background-image: url(";
+        echo $this->getAttribute((isset($context["img"]) ? $context["img"] : null), "url", array());
+        echo ");\">
+    \t\t<div class=\"hero-text\">
+    \t\t\t<h1 id=\"main-title\">";
+        // line 19
+        echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "heading", array());
+        echo "</h1>
+    \t\t\t<p>";
+        // line 20
+        echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "subheading", array());
+        echo "</p>
+\t\t\t\t<a><button class=\"btn-styled margin-top-20\">Send free enquiry <i class=\"fa fa-envelope fa-lg \"></i></button></a>
+  \t\t\t</div>
+\t\t</div>
+\t\t\t";
+        // line 24
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
 \t\t</div>
 
 \t\t\t";
-        // line 25
+        // line 27
         if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "breadcrumbs", array()), "enabled", array())) {
-            // line 26
+            // line 28
             echo "\t\t\t\t";
-            $this->loadTemplate("partials/breadcrumbs.html.twig", "blog.html.twig", 26)->display($context);
-            // line 27
+            $this->loadTemplate("partials/breadcrumbs.html.twig", "blog.html.twig", 28)->display($context);
+            // line 29
             echo "\t\t\t";
         }
-        // line 28
+        // line 30
         echo "\t\t<div class=\"container\">
 \t\t\t<div class=\"row\">
 \t\t\t\t<div class=\"col-md-8\">
 \t\t\t\t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
 \t\t\t\t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">
 \t\t\t\t\t\t\t";
-        // line 33
+        // line 35
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["collection"]) ? $context["collection"] : null));
         $context['loop'] = array(
@@ -222,10 +228,10 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 34
+            // line 36
             echo "\t\t\t\t\t\t\t\t";
-            $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 34)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
-            // line 35
+            $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 36)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
+            // line 37
             echo "\t\t\t\t\t\t\t";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -239,29 +245,30 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 36
+        // line 38
         echo "
 \t\t\t\t\t\t\t";
-        // line 37
+        // line 39
         if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "pagination", array()), "enabled", array()) && $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))) {
-            // line 38
+            // line 40
             echo "\t\t\t\t\t\t\t\t";
-            $this->loadTemplate("partials/pagination.html.twig", "blog.html.twig", 38)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
-            // line 39
+            $this->loadTemplate("partials/pagination.html.twig", "blog.html.twig", 40)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
+            // line 41
             echo "\t\t\t\t\t\t\t";
         }
-        // line 40
+        // line 42
         echo "\t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div> <!-- eof col -->
-\t\t\t\t<div class=\"col-md-4\">
-\t\t\t\t\t
+\t\t\t\t<div class=\"col-md-1\"></div>
+\t\t\t\t<div class=\"col-md-3\">
 \t\t\t\t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
+\t\t\t\t\t\t<h1 id=\"recent-posts-title\">Recent</h1>
 \t\t\t\t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">
 \t\t\t\t\t\t\t";
-        // line 47
+        // line 50
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["collection"]) ? $context["collection"] : null));
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "find", array(0 => "/blog"), "method"), "children", array()), "order", array(0 => "date", 1 => "desc"), "method"), "slice", array(0 => 0, 1 => 5), "method"));
         $context['loop'] = array(
           'parent' => $context['_parent'],
           'index0' => 0,
@@ -275,17 +282,17 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
             $context['loop']['length'] = $length;
             $context['loop']['last'] = 1 === $length;
         }
-        foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 48
+        foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
+            // line 51
             echo "\t\t\t\t\t\t\t\t";
             if (($this->getAttribute($context["loop"], "index", array()) <= 3)) {
-                // line 49
-                echo "\t\t\t\t\t\t\t\t";
-                $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 49)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
-                // line 50
+                // line 52
+                echo "\t\t\t\t\t\t\t\t\t";
+                $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 52)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["p"], "truncate" => true)));
+                // line 53
                 echo "\t\t\t\t\t\t\t\t";
             }
-            // line 51
+            // line 54
             echo "\t\t\t\t\t\t\t";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -297,9 +304,9 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
             }
         }
         $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 52
+        // line 55
         echo "\t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 
@@ -321,7 +328,7 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 
     public function getDebugInfo()
     {
-        return array (  303 => 52,  289 => 51,  286 => 50,  283 => 49,  280 => 48,  263 => 47,  254 => 40,  251 => 39,  248 => 38,  246 => 37,  243 => 36,  229 => 35,  226 => 34,  209 => 33,  202 => 28,  199 => 27,  196 => 26,  194 => 25,  187 => 22,  183 => 20,  177 => 18,  175 => 17,  172 => 16,  169 => 15,  166 => 14,  162 => 10,  160 => 12,  146 => 10,  41 => 61,  39 => 10,  31 => 5,  27 => 4,  21 => 2,  19 => 1,);
+        return array (  310 => 55,  296 => 54,  293 => 53,  290 => 52,  287 => 51,  270 => 50,  260 => 42,  257 => 41,  254 => 40,  252 => 39,  249 => 38,  235 => 37,  232 => 36,  215 => 35,  208 => 30,  205 => 29,  202 => 28,  200 => 27,  194 => 24,  187 => 20,  183 => 19,  177 => 17,  173 => 15,  167 => 13,  165 => 12,  162 => 11,  159 => 10,  156 => 9,  152 => 5,  150 => 7,  136 => 5,  28 => 64,  26 => 5,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -335,12 +342,7 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
     public function getSourceContext()
     {
         return new Twig_Source("{% set img = page.media.images|first %}
-<div class=\"hero-image\" style=\"background-image: url({{ img.url }});\">
-    <div class=\"hero-text\">
-    <h1 id=\"main-title\">{{ page.header.heading }}</h1>
-    <p>{{ page.header.subheading }}</p>
-  </div>
-</div>
+
 
 
 {% embed 'partials/base.html.twig' %}
@@ -355,6 +357,13 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 \t\t{% else %}
 \t\t<div class=\"blog-header\">
 \t\t{% endif %}
+\t\t<div class=\"hero-image\" style=\"background-image: url({{ img.url }});\">
+    \t\t<div class=\"hero-text\">
+    \t\t\t<h1 id=\"main-title\">{{ page.header.heading }}</h1>
+    \t\t\t<p>{{ page.header.subheading }}</p>
+\t\t\t\t<a><button class=\"btn-styled margin-top-20\">Send free enquiry <i class=\"fa fa-envelope fa-lg \"></i></button></a>
+  \t\t\t</div>
+\t\t</div>
 \t\t\t{{ page.content }}
 \t\t</div>
 
@@ -376,13 +385,14 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div> <!-- eof col -->
-\t\t\t\t<div class=\"col-md-4\">
-\t\t\t\t\t
+\t\t\t\t<div class=\"col-md-1\"></div>
+\t\t\t\t<div class=\"col-md-3\">
 \t\t\t\t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
+\t\t\t\t\t\t<h1 id=\"recent-posts-title\">Recent</h1>
 \t\t\t\t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">
-\t\t\t\t\t\t\t{% for child in collection %}
+\t\t\t\t\t\t\t{% for p in page.find('/blog').children.order('date', 'desc').slice(0,5) %}
 \t\t\t\t\t\t\t\t{% if loop.index <= 3 %}
-\t\t\t\t\t\t\t\t{% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+\t\t\t\t\t\t\t\t\t{% include 'partials/blog_item.html.twig' with {'blog':page, 'page':p, 'truncate':true} %}
 \t\t\t\t\t\t\t\t{% endif %}
 \t\t\t\t\t\t\t{% endfor %}
 \t\t\t\t\t\t</div>

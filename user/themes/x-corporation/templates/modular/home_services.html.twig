@@ -1,7 +1,10 @@
-<div class="container-fluid text-center section" id="section-services">
+<div class="container-fluid text-center section bg-white">
+    <div>
   <h1 class="margin-top-0">
-    About
+    Services
   </h1>
+  <p>{{header.subheading}}</p>
+  </div>
   
   {% for service in page.header.services %}
          <!-- For each 2 items, add a row -->
@@ -26,7 +29,7 @@
 
                     <!-- Title -->
                     <b><p class="padding-bottom-15 padding-top-15">{{service.text}}</p></b>
-                    <button href="../services" class="goto-btn"><i class="fa fa-arrow-circle-right fa-3x"></i></button>
+                    <a href="/LandMarkmedia/services"><button class="goto-btn"><i class="fa fa-chevron-circle-right fa-3x"></i></button></a>
                 </div> <!-- End of card -->
                 <hr class="hr-red margin-bottom-50">
             </div> <!-- End col -->

@@ -7,9 +7,10 @@
 
     <div class="list-blog-header">
       
-     
-
-        {% if page.taxonomy.tag %}
+     <div class="container">
+        <div class="row">
+            <div class="col-md-5 no-padding">
+             {% if page.taxonomy.tag %}
         <span class="tags">
             {% for tag in page.taxonomy.tag %}
             <a href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}" class="p-category">{{ tag }}</a>
@@ -35,6 +36,11 @@
         {% else %}
             <h2 class="p-name"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h2>
         {% endif %}
+            </div>
+        </div>
+     </div>
+
+       
 
         <hr class="hr-short-red">
 
@@ -58,8 +64,7 @@
     {% elseif truncate and page.summary != page.content %}
         <div class="p-summary e-content">
             {{ page.summary }}
-            <p><a href="{{ page.url }}">{{ 'Continue Reading'|t }}</a></p>
-            <hr class="hr-black">
+            <p><a href="{{ page.url }}">{{ 'Continue Reading'|t }}</a><i class="fa fa-long-arrow-right icon-cont-reading"></i></p>
         </div>
     {% elseif truncate %}
         <div class="p-summary e-content">
@@ -70,23 +75,23 @@
         <div class="e-content">
             {{ page.content }}
         </div>
-
         {% if config.plugins.comments.enabled %}
             {% include 'partials/comments.html.twig' %}
         {% endif %}
 
         {% set show_prev_next = true %}
     {% endif %}
+    <hr class="hr-short-red width-130">
 
     {% if show_prev_next %}
 
         <p class="prev-next">
             {% if not page.isFirst %}
-                <a class="button" href="{{ page.nextSibling.url }}"><i class="fa fa-chevron-left"></i> {{ 'BLOG.ITEM.NEXT_POST'|t }}</a>
+                <a class="button" href="{{ page.nextSibling.url }}"><i class="fa fa-chevron-left"></i> {{ 'Previous Post'|t }}</a>
             {% endif %}
 
             {% if not page.isLast %}
-                <a class="button" href="{{ page.prevSibling.url }}">{{ 'BLOG.ITEM.PREV_POST'|t }} <i class="fa fa-chevron-right"></i></a>
+                <a class="button" href="{{ page.prevSibling.url }}">{{ 'Next Post'|t }} <i class="fa fa-chevron-right"></i></a>
             {% endif %}
         </p>
     {% endif %}

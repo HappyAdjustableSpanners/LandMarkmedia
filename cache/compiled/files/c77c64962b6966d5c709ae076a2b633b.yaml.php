@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/user/themes/x-corporation/blueprints/modular/home_services.yaml',
-    'modified' => 1517487461,
+    'modified' => 1517572693,
     'data' => [
         'title' => 'Services',
         '@extends' => [
@@ -18,10 +18,10 @@ return [
                             'type' => 'tab',
                             'title' => 'Text',
                             'fields' => [
-                                'header.text' => [
+                                'header.subheading' => [
                                     'type' => 'text',
-                                    'title' => 'text',
-                                    'label' => 'text'
+                                    'title' => 'Subheading',
+                                    'label' => 'Subheading'
                                 ],
                                 'header.services' => [
                                     'type' => 'list',

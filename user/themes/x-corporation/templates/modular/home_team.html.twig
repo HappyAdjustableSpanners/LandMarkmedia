@@ -13,7 +13,7 @@
                 <div class="member-card">
                     
                     <!-- img -->
-                    <a class="border-radius-50 team-img">
+                    <a href="/LandmarkMedia/team" class="border-radius-50 team-img">
                         {{ page.media.images[member.image].html('', member.name) }}
                     </a>
 
@@ -24,13 +24,13 @@
 
                     <div class="row">
                         <div class="col-xs-offset-3 col-xs-2 team-icon">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <a href="{{member.facebookurl}}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </div>
                         <div class="col-xs-2 team-icon">
-                             <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <a href="{{member.twitterurl}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </div>
                         <div class="col-xs-2 team-icon">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <a href="{{member.linkedinurl}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
 
                     </div>

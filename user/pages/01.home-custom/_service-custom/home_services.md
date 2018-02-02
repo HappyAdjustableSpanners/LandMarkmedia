@@ -1,6 +1,6 @@
 ---
-title: 'Service Custom'
-text: text
+title: 'Services Preview'
+subheading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. '
 services:
     -
         text: 'Contract and remuneration service'
@@ -17,5 +17,6 @@ services:
     -
         text: 'Future Service'
         image: graph.PNG
+text: text
 ---
 

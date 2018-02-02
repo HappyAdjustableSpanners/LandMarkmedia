@@ -12,10 +12,10 @@ form:
                     type: tab
                     title: Text
                     fields:
-                        header.text:
+                        header.subheading:
                             type: text
-                            title: text
-                            label: text
+                            title: Subheading
+                            label: Subheading
                         header.services:
                             type: list
                             title: Services 

@@ -30,6 +30,7 @@ class __TwigTemplate_b24dbe69dc959172f07804feb52ff9d5c7496b9b8d4726f894825727085
         // line 5
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "subheading", array());
         echo "</p>
+    <a><button class=\"btn-styled margin-top-20\">Send free enquiry <i class=\"fa fa-envelope fa-lg \"></i></button></a>
   </div>
 </div>";
     }
@@ -64,6 +65,7 @@ class __TwigTemplate_b24dbe69dc959172f07804feb52ff9d5c7496b9b8d4726f894825727085
     <div class=\"hero-text\">
     <h1 id=\"main-title\">{{ page.header.heading }}</h1>
     <p>{{ page.header.subheading }}</p>
+    <a><button class=\"btn-styled margin-top-20\">Send free enquiry <i class=\"fa fa-envelope fa-lg \"></i></button></a>
   </div>
 </div>", "modular/hero-image.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\themes\\x-corporation\\templates\\modular\\hero-image.html.twig");
     }

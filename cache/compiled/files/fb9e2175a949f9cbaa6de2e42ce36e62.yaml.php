@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/system/config/site.yaml',
-    'modified' => 1517487460,
+    'modified' => 1517562369,
     'data' => [
         'title' => 'Grav',
         'default_lang' => 'en',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/user/plugins/admin/languages/ja.yaml',
-    'modified' => 1517487460,
+    'modified' => 1517562369,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'これはベータリリースです。稼働中サイトでは、自己責任においてご利用ください。',

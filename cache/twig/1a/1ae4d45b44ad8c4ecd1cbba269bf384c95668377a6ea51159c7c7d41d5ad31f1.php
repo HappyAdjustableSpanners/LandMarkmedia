@@ -16,13 +16,19 @@ class __TwigTemplate_a960287ab974d53f43ba8db50499f7dbd6ef30028102a7219b74203a65d
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div class=\"container-fluid text-center section\" id=\"section-services\">
+        echo "<div class=\"container-fluid text-center section bg-white\">
+    <div>
   <h1 class=\"margin-top-0\">
-    About
+    Services
   </h1>
+  <p>";
+        // line 6
+        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "subheading", array());
+        echo "</p>
+  </div>
   
   ";
-        // line 6
+        // line 9
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "services", array()));
         $context['loop'] = array(
@@ -39,67 +45,67 @@ class __TwigTemplate_a960287ab974d53f43ba8db50499f7dbd6ef30028102a7219b74203a65d
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["service"]) {
-            // line 7
+            // line 10
             echo "         <!-- For each 2 items, add a row -->
         ";
-            // line 8
+            // line 11
             if ((($this->getAttribute($context["loop"], "index", array()) % 2) == 1)) {
-                // line 9
+                // line 12
                 echo "                <div class=\"row row-center\">
         ";
             }
-            // line 11
+            // line 14
             echo "            <div class=\"col-md-5 col-center\">
                 <div class=\"service-card\">
                     <!-- icon -->
                     ";
-            // line 14
-            if (($this->getAttribute($context["service"], "image", array()) == "graph.PNG")) {
-                // line 15
-                echo "                        <i class=\"fa fa-bar-chart fa-5x\" aria-hidden=\"true\"></i>
-                    ";
-            }
             // line 17
-            echo "                    ";
-            if (($this->getAttribute($context["service"], "image", array()) == "pie-chart.PNG")) {
+            if (($this->getAttribute($context["service"], "image", array()) == "graph.PNG")) {
                 // line 18
-                echo "                        <i class=\"fa fa-pie-chart fa-5x\" aria-hidden=\"true\"></i>
+                echo "                        <i class=\"fa fa-bar-chart fa-5x\" aria-hidden=\"true\"></i>
                     ";
             }
             // line 20
             echo "                    ";
-            if (($this->getAttribute($context["service"], "image", array()) == "lock.PNG")) {
+            if (($this->getAttribute($context["service"], "image", array()) == "pie-chart.PNG")) {
                 // line 21
-                echo "                        <i class=\"fa fa-lock fa-5x\" aria-hidden=\"true\"></i>
+                echo "                        <i class=\"fa fa-pie-chart fa-5x\" aria-hidden=\"true\"></i>
                     ";
             }
             // line 23
             echo "                    ";
-            if (($this->getAttribute($context["service"], "image", array()) == "house.PNG")) {
+            if (($this->getAttribute($context["service"], "image", array()) == "lock.PNG")) {
                 // line 24
-                echo "                        <i class=\"fa fa-home fa-5x\" aria-hidden=\"true\"></i>
+                echo "                        <i class=\"fa fa-lock fa-5x\" aria-hidden=\"true\"></i>
                     ";
             }
             // line 26
+            echo "                    ";
+            if (($this->getAttribute($context["service"], "image", array()) == "house.PNG")) {
+                // line 27
+                echo "                        <i class=\"fa fa-home fa-5x\" aria-hidden=\"true\"></i>
+                    ";
+            }
+            // line 29
             echo "
                     <!-- Title -->
                     <b><p class=\"padding-bottom-15 padding-top-15\">";
-            // line 28
+            // line 31
             echo $this->getAttribute($context["service"], "text", array());
             echo "</p></b>
-                    <button href=\"../services\" class=\"goto-btn\"><i class=\"fa fa-arrow-circle-right fa-3x\"></i></button>
+                    <a href=\"/LandMarkmedia/services\"><button class=\"goto-btn\"><i class=\"fa fa-chevron-circle-right fa-3x\"></i></button></a>
                 </div> <!-- End of card -->
                 <hr class=\"hr-red margin-bottom-50\">
             </div> <!-- End col -->
 
                ";
-            // line 34
+            // line 37
             if ((($this->getAttribute($context["loop"], "index", array()) == $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "services", array()), "count", array())) || (($this->getAttribute($context["loop"], "index", array()) % 2) == 0))) {
-                // line 35
+                // line 38
                 echo "        </div>
         ";
             }
-            // line 37
+            // line 40
             echo "
   ";
             ++$context['loop']['index0'];
@@ -114,7 +120,7 @@ class __TwigTemplate_a960287ab974d53f43ba8db50499f7dbd6ef30028102a7219b74203a65d
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['service'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 39
+        // line 42
         echo "</div>
 </div>";
     }
@@ -131,7 +137,7 @@ class __TwigTemplate_a960287ab974d53f43ba8db50499f7dbd6ef30028102a7219b74203a65d
 
     public function getDebugInfo()
     {
-        return array (  118 => 39,  103 => 37,  99 => 35,  97 => 34,  88 => 28,  84 => 26,  80 => 24,  77 => 23,  73 => 21,  70 => 20,  66 => 18,  63 => 17,  59 => 15,  57 => 14,  52 => 11,  48 => 9,  46 => 8,  43 => 7,  26 => 6,  19 => 1,);
+        return array (  124 => 42,  109 => 40,  105 => 38,  103 => 37,  94 => 31,  90 => 29,  86 => 27,  83 => 26,  79 => 24,  76 => 23,  72 => 21,  69 => 20,  65 => 18,  63 => 17,  58 => 14,  54 => 12,  52 => 11,  49 => 10,  32 => 9,  26 => 6,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -144,10 +150,13 @@ class __TwigTemplate_a960287ab974d53f43ba8db50499f7dbd6ef30028102a7219b74203a65d
 
     public function getSourceContext()
     {
-        return new Twig_Source("<div class=\"container-fluid text-center section\" id=\"section-services\">
+        return new Twig_Source("<div class=\"container-fluid text-center section bg-white\">
+    <div>
   <h1 class=\"margin-top-0\">
-    About
+    Services
   </h1>
+  <p>{{header.subheading}}</p>
+  </div>
   
   {% for service in page.header.services %}
          <!-- For each 2 items, add a row -->
@@ -172,7 +181,7 @@ class __TwigTemplate_a960287ab974d53f43ba8db50499f7dbd6ef30028102a7219b74203a65d
 
                     <!-- Title -->
                     <b><p class=\"padding-bottom-15 padding-top-15\">{{service.text}}</p></b>
-                    <button href=\"../services\" class=\"goto-btn\"><i class=\"fa fa-arrow-circle-right fa-3x\"></i></button>
+                    <a href=\"/LandMarkmedia/services\"><button class=\"goto-btn\"><i class=\"fa fa-chevron-circle-right fa-3x\"></i></button></a>
                 </div> <!-- End of card -->
                 <hr class=\"hr-red margin-bottom-50\">
             </div> <!-- End col -->

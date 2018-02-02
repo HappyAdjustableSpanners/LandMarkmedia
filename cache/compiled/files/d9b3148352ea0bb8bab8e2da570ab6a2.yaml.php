@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/LandMarkmedia/system/languages/el.yaml',
-    'modified' => 1517487460,
+    'modified' => 1517562369,
     'data' => [
         'MONTHS_OF_THE_YEAR' => [
             0 => 'Ιανουάριος',

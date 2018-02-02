@@ -29,36 +29,42 @@ class __TwigTemplate_d11e5f29f53b0b62cbe702a1894dba7677fe7b6f92df7b6f08ebd17e053
   <div class=\"row\" id=\"contact-fields\">
     <div class=\"col-md-4\">
         <div class=\"row\">
-            <div class=\"col-sm-6 contact-heading\" >Address</div>
-            <div class=\"col-sm-6 contact-content\">";
-        // line 12
+            <div class=\"col-sm-2 contact-icon\">
+                <i class=\"fa fa-envelope fa-3x\"></i>
+            </div>
+            <div class=\"col-sm-10 contact-content\">";
+        // line 14
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "address", array());
         echo "</div>
         </div>
     </div>
+    <div class=\"col-md-4 contact-dividers\">
+        <div class=\"row\">
+            <div class=\"col-sm-2 contact-icon\">
+                <i class=\"fa fa-mobile fa-3x\"></i>
+            </div>
+            <div class=\"col-sm-10 contact-content\">
+                ";
+        // line 23
+        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "phone", array());
+        echo "
+            </div>
+        </div>
+    </div>
     <div class=\"col-md-4\">
         <div class=\"row\">
-            <div class=\"col-sm-6 contact-heading\">Contact details</div>
-            <div class=\"col-sm-6 contact-content\">";
-        // line 18
+            <div class=\"col-sm-2 contact-icon\">
+                <i class=\"fa fa-map-marker fa-3x\"></i>
+            </div>
+            <div class=\"col-sm-10 contact-content\">";
+        // line 32
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "email", array());
         echo "</div>
         </div>
     </div>
-    <div class=\"col-md-4\">
-        <div class=\"row\">
-             <div class=\"col-md-4\">
-            </div>
-             <div class=\"col-md-4\" id=\"logos\">
-                <i class=\"fa fa-twitter\" aria-hidden=\"true\"></i>
-                <i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i>
-                <i class=\"fa fa-facebook\" aria-hidden=\"true\"></i>
-            </div>
-             <div class=\"col-md-4\">
-            </div>
-        </div>
-    </div>
-  </div>
+    ";
+        // line 48
+        echo "  </div>
 </div>";
     }
 
@@ -74,7 +80,7 @@ class __TwigTemplate_d11e5f29f53b0b62cbe702a1894dba7677fe7b6f92df7b6f08ebd17e053
 
     public function getDebugInfo()
     {
-        return array (  44 => 18,  35 => 12,  26 => 6,  19 => 1,);
+        return array (  67 => 48,  61 => 32,  49 => 23,  37 => 14,  26 => 6,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -97,29 +103,43 @@ class __TwigTemplate_d11e5f29f53b0b62cbe702a1894dba7677fe7b6f92df7b6f08ebd17e053
   <div class=\"row\" id=\"contact-fields\">
     <div class=\"col-md-4\">
         <div class=\"row\">
-            <div class=\"col-sm-6 contact-heading\" >Address</div>
-            <div class=\"col-sm-6 contact-content\">{{header.address}}</div>
+            <div class=\"col-sm-2 contact-icon\">
+                <i class=\"fa fa-envelope fa-3x\"></i>
+            </div>
+            <div class=\"col-sm-10 contact-content\">{{header.address}}</div>
+        </div>
+    </div>
+    <div class=\"col-md-4 contact-dividers\">
+        <div class=\"row\">
+            <div class=\"col-sm-2 contact-icon\">
+                <i class=\"fa fa-mobile fa-3x\"></i>
+            </div>
+            <div class=\"col-sm-10 contact-content\">
+                {{header.phone}}
+            </div>
         </div>
     </div>
     <div class=\"col-md-4\">
         <div class=\"row\">
-            <div class=\"col-sm-6 contact-heading\">Contact details</div>
-            <div class=\"col-sm-6 contact-content\">{{header.email}}</div>
+            <div class=\"col-sm-2 contact-icon\">
+                <i class=\"fa fa-map-marker fa-3x\"></i>
+            </div>
+            <div class=\"col-sm-10 contact-content\">{{header.email}}</div>
         </div>
     </div>
-    <div class=\"col-md-4\">
+    {# <div class=\"col-md-4\">
         <div class=\"row\">
              <div class=\"col-md-4\">
             </div>
              <div class=\"col-md-4\" id=\"logos\">
-                <i class=\"fa fa-twitter\" aria-hidden=\"true\"></i>
-                <i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i>
-                <i class=\"fa fa-facebook\" aria-hidden=\"true\"></i>
+                <a href=\"{{header.twitterurl}}\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>
+                <a href=\"{{header.linkedinurl}}\"><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i></a>
+                <a href=\"{{header.facebookurl}}\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>
             </div>
              <div class=\"col-md-4\">
             </div>
         </div>
-    </div>
+    </div> #}
   </div>
 </div>", "modular/home_contact.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\themes\\x-corporation\\templates\\modular\\home_contact.html.twig");
     }

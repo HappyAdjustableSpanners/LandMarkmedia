@@ -28,3 +28,15 @@ form:
                             type: text
                             title: phone
                             label: phone
+                        header.facebookurl:
+                            type: text
+                            title: Facebook URL
+                            label: Facebook URL
+                        header.twitterurl:
+                            type: text
+                            title: Twitter URL
+                            label: Twitter URL
+                        header.linkedinurl:
+                            type: text
+                            title: LinkedIn URL
+                            label: LinkedIn URL
