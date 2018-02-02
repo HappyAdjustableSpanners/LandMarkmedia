@@ -21,14 +21,15 @@ class __TwigTemplate_a960287ab974d53f43ba8db50499f7dbd6ef30028102a7219b74203a65d
   <h1 class=\"margin-top-0\">
     Services
   </h1>
+  <hr align=\"middle\" class=\"hr-center hr-red\">
   <p>";
-        // line 6
+        // line 7
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "subheading", array());
         echo "</p>
   </div>
   
   ";
-        // line 9
+        // line 10
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "services", array()));
         $context['loop'] = array(
@@ -45,67 +46,67 @@ class __TwigTemplate_a960287ab974d53f43ba8db50499f7dbd6ef30028102a7219b74203a65d
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["service"]) {
-            // line 10
+            // line 11
             echo "         <!-- For each 2 items, add a row -->
         ";
-            // line 11
+            // line 12
             if ((($this->getAttribute($context["loop"], "index", array()) % 2) == 1)) {
-                // line 12
+                // line 13
                 echo "                <div class=\"row row-center\">
         ";
             }
-            // line 14
+            // line 15
             echo "            <div class=\"col-md-5 col-center\">
                 <div class=\"service-card\">
                     <!-- icon -->
                     ";
-            // line 17
+            // line 18
             if (($this->getAttribute($context["service"], "image", array()) == "graph.PNG")) {
-                // line 18
+                // line 19
                 echo "                        <i class=\"fa fa-bar-chart fa-5x\" aria-hidden=\"true\"></i>
                     ";
             }
-            // line 20
+            // line 21
             echo "                    ";
             if (($this->getAttribute($context["service"], "image", array()) == "pie-chart.PNG")) {
-                // line 21
+                // line 22
                 echo "                        <i class=\"fa fa-pie-chart fa-5x\" aria-hidden=\"true\"></i>
                     ";
             }
-            // line 23
+            // line 24
             echo "                    ";
             if (($this->getAttribute($context["service"], "image", array()) == "lock.PNG")) {
-                // line 24
+                // line 25
                 echo "                        <i class=\"fa fa-lock fa-5x\" aria-hidden=\"true\"></i>
                     ";
             }
-            // line 26
+            // line 27
             echo "                    ";
             if (($this->getAttribute($context["service"], "image", array()) == "house.PNG")) {
-                // line 27
+                // line 28
                 echo "                        <i class=\"fa fa-home fa-5x\" aria-hidden=\"true\"></i>
                     ";
             }
-            // line 29
+            // line 30
             echo "
                     <!-- Title -->
                     <b><p class=\"padding-bottom-15 padding-top-15\">";
-            // line 31
+            // line 32
             echo $this->getAttribute($context["service"], "text", array());
             echo "</p></b>
-                    <a href=\"/LandMarkmedia/services\"><button class=\"goto-btn\"><i class=\"fa fa-chevron-circle-right fa-3x\"></i></button></a>
+                    <a href=\"/LandMarkmedia/services\"><button class=\"btn-hover goto-btn\"><i class=\"fa fa-chevron-circle-right fa-3x\"></i></button></a>
                 </div> <!-- End of card -->
                 <hr class=\"hr-red margin-bottom-50\">
             </div> <!-- End col -->
 
                ";
-            // line 37
+            // line 38
             if ((($this->getAttribute($context["loop"], "index", array()) == $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "services", array()), "count", array())) || (($this->getAttribute($context["loop"], "index", array()) % 2) == 0))) {
-                // line 38
+                // line 39
                 echo "        </div>
         ";
             }
-            // line 40
+            // line 41
             echo "
   ";
             ++$context['loop']['index0'];
@@ -120,7 +121,7 @@ class __TwigTemplate_a960287ab974d53f43ba8db50499f7dbd6ef30028102a7219b74203a65d
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['service'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 42
+        // line 43
         echo "</div>
 </div>";
     }
@@ -137,7 +138,7 @@ class __TwigTemplate_a960287ab974d53f43ba8db50499f7dbd6ef30028102a7219b74203a65d
 
     public function getDebugInfo()
     {
-        return array (  124 => 42,  109 => 40,  105 => 38,  103 => 37,  94 => 31,  90 => 29,  86 => 27,  83 => 26,  79 => 24,  76 => 23,  72 => 21,  69 => 20,  65 => 18,  63 => 17,  58 => 14,  54 => 12,  52 => 11,  49 => 10,  32 => 9,  26 => 6,  19 => 1,);
+        return array (  125 => 43,  110 => 41,  106 => 39,  104 => 38,  95 => 32,  91 => 30,  87 => 28,  84 => 27,  80 => 25,  77 => 24,  73 => 22,  70 => 21,  66 => 19,  64 => 18,  59 => 15,  55 => 13,  53 => 12,  50 => 11,  33 => 10,  27 => 7,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -155,6 +156,7 @@ class __TwigTemplate_a960287ab974d53f43ba8db50499f7dbd6ef30028102a7219b74203a65d
   <h1 class=\"margin-top-0\">
     Services
   </h1>
+  <hr align=\"middle\" class=\"hr-center hr-red\">
   <p>{{header.subheading}}</p>
   </div>
   
@@ -181,7 +183,7 @@ class __TwigTemplate_a960287ab974d53f43ba8db50499f7dbd6ef30028102a7219b74203a65d
 
                     <!-- Title -->
                     <b><p class=\"padding-bottom-15 padding-top-15\">{{service.text}}</p></b>
-                    <a href=\"/LandMarkmedia/services\"><button class=\"goto-btn\"><i class=\"fa fa-chevron-circle-right fa-3x\"></i></button></a>
+                    <a href=\"/LandMarkmedia/services\"><button class=\"btn-hover goto-btn\"><i class=\"fa fa-chevron-circle-right fa-3x\"></i></button></a>
                 </div> <!-- End of card -->
                 <hr class=\"hr-red margin-bottom-50\">
             </div> <!-- End col -->

@@ -19,7 +19,22 @@ class __TwigTemplate_d40c7d044bebea1d2cd24913240aabef749d9ec5f77b7ad029a22db450b
         echo "
 <nav class=\"navbar m-menu navbar-default navbar-fixed-top\">
     <div class=\"container\">
+
+<div class=\"row\">
+
+    <div class=\"col-md-4 col-xs-5\">
+
         <div class=\"navbar-header\">
+
+            <a class=\"navbar-brand\" href=\"";
+        // line 45
+        echo ((((isset($context["base_url"]) ? $context["base_url"] : null) == "")) ? ("/") : ((isset($context["base_url"]) ? $context["base_url"] : null)));
+        echo "\">
+                <img class=\"img-fluid\" src=\"";
+        // line 46
+        echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
+        echo "/images/logo-xl.png\" alt=\"\">
+            </a>
             <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\"
                     data-target=\"#navbar-collapse-1\">
                 <span class=\"sr-only\">Toggle navigation</span>
@@ -28,52 +43,62 @@ class __TwigTemplate_d40c7d044bebea1d2cd24913240aabef749d9ec5f77b7ad029a22db450b
                 <span class=\"icon-bar\"></span>
             </button>
             ";
-        // line 46
+        // line 55
         if (($this->getAttribute((isset($context["theme_config"]) ? $context["theme_config"] : null), "logo", array()) != "")) {
-            // line 47
+            // line 56
             echo "            <a class=\"navbar-brand\" href=\"";
             echo ((((isset($context["base_url"]) ? $context["base_url"] : null) == "")) ? ("/") : ((isset($context["base_url"]) ? $context["base_url"] : null)));
             echo "\">
                 <img src=\"";
-            // line 48
+            // line 57
             echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc(("theme://img/" . $this->getAttribute((isset($context["theme_config"]) ? $context["theme_config"] : null), "logo", array())));
             echo "\" alt=\"\">
             </a>
             ";
         }
-        // line 51
+        // line 60
         echo "        </div>
+     </div>
 
+
+
+<div class=\"col-md-8\">
         <div class=\"collapse navbar-collapse\" id=\"#navbar-collapse-1\">
             ";
-        // line 54
+        // line 67
         if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "simplesearch", array()), "enabled", array())) {
-            // line 55
+            // line 68
             echo "            <ul class=\"nav-cta hidden-xs\">
                 <li class=\"dropdown\"><a href=\"#\" data-toggle=\"dropdown\" class=\"dropdown-toggle\"><i
                         class=\"fa fa-search\"></i></a>
                     <ul class=\"dropdown-menu\">
                         <li>
                             ";
-            // line 60
-            $this->loadTemplate("partials/simplesearch_searchbox.html.twig", "partials/navbar.html.twig", 60)->display($context);
-            // line 61
+            // line 73
+            $this->loadTemplate("partials/simplesearch_searchbox.html.twig", "partials/navbar.html.twig", 73)->display($context);
+            // line 74
             echo "                        </li>
                     </ul>
                 </li>
             </ul>
             ";
         }
-        // line 66
+        // line 79
         echo "
             <ul class=\"nav navbar-nav navbar-right main-nav\">
                 ";
-        // line 68
+        // line 81
         echo $this->getAttribute($this, "loop", array(0 => (isset($context["pages"]) ? $context["pages"] : null)), "method");
         echo "
             </ul>
 
         </div>
+</div>
+
+
+</div>
+
+
     </div>
 </nav>
 ";
@@ -217,7 +242,7 @@ class __TwigTemplate_d40c7d044bebea1d2cd24913240aabef749d9ec5f77b7ad029a22db450b
 
     public function getDebugInfo()
     {
-        return array (  190 => 33,  182 => 30,  177 => 29,  173 => 27,  169 => 25,  161 => 22,  158 => 21,  147 => 18,  144 => 17,  140 => 16,  135 => 15,  133 => 14,  129 => 13,  126 => 12,  122 => 11,  119 => 10,  117 => 9,  111 => 6,  106 => 5,  103 => 4,  100 => 3,  95 => 2,  83 => 1,  72 => 68,  68 => 66,  61 => 61,  59 => 60,  52 => 55,  50 => 54,  45 => 51,  39 => 48,  34 => 47,  32 => 46,  19 => 35,);
+        return array (  215 => 33,  207 => 30,  202 => 29,  198 => 27,  194 => 25,  186 => 22,  183 => 21,  172 => 18,  169 => 17,  165 => 16,  160 => 15,  158 => 14,  154 => 13,  151 => 12,  147 => 11,  144 => 10,  142 => 9,  136 => 6,  131 => 5,  128 => 4,  125 => 3,  120 => 2,  108 => 1,  91 => 81,  87 => 79,  80 => 74,  78 => 73,  71 => 68,  69 => 67,  60 => 60,  54 => 57,  49 => 56,  47 => 55,  35 => 46,  31 => 45,  19 => 35,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -267,7 +292,16 @@ class __TwigTemplate_d40c7d044bebea1d2cd24913240aabef749d9ec5f77b7ad029a22db450b
 
 <nav class=\"navbar m-menu navbar-default navbar-fixed-top\">
     <div class=\"container\">
+
+<div class=\"row\">
+
+    <div class=\"col-md-4 col-xs-5\">
+
         <div class=\"navbar-header\">
+
+            <a class=\"navbar-brand\" href=\"{{ base_url == '' ? '/' : base_url }}\">
+                <img class=\"img-fluid\" src=\"{{ theme_url }}/images/logo-xl.png\" alt=\"\">
+            </a>
             <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\"
                     data-target=\"#navbar-collapse-1\">
                 <span class=\"sr-only\">Toggle navigation</span>
@@ -281,7 +315,11 @@ class __TwigTemplate_d40c7d044bebea1d2cd24913240aabef749d9ec5f77b7ad029a22db450b
             </a>
             {% endif %}
         </div>
+     </div>
 
+
+
+<div class=\"col-md-8\">
         <div class=\"collapse navbar-collapse\" id=\"#navbar-collapse-1\">
             {% if config.plugins.simplesearch.enabled %}
             <ul class=\"nav-cta hidden-xs\">
@@ -301,6 +339,12 @@ class __TwigTemplate_d40c7d044bebea1d2cd24913240aabef749d9ec5f77b7ad029a22db450b
             </ul>
 
         </div>
+</div>
+
+
+</div>
+
+
     </div>
 </nav>
 ", "partials/navbar.html.twig", "C:\\wamp64\\www\\LandMarkmedia\\user\\themes\\x-corporation\\templates\\partials\\navbar.html.twig");

@@ -12,6 +12,7 @@
   <h1 class="margin-top-0">
     Latest news
   </h1>
+    <hr align="middle" class="hr-center hr-white">
 
 
   
@@ -26,7 +27,7 @@
           <div class="post-div">
             <h1>{{p.title}}</h1>
             
-            {{p.content}}
+            <p>{{p.content | striptags |  truncate(100) }}</p>
             <a href="/LandMarkmedia/blog/"><button class="btn-read-more"><i class="fa fa-chevron-circle-right padding-right-10"></i>Read more</button></a>
         </div>
     </div>

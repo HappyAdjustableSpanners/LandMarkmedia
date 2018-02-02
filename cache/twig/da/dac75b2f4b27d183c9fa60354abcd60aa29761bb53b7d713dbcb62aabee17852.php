@@ -44,10 +44,10 @@ class __TwigTemplate_fb5102653d84053e6cd484ea2d9bc152f4da38cd97b48f69c35f85d7d75
 ";
         // line 7
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 18
+        // line 19
         echo "
 ";
-        // line 19
+        // line 20
         $this->displayBlock('javascripts', $context, $blocks);
     }
 
@@ -57,55 +57,59 @@ class __TwigTemplate_fb5102653d84053e6cd484ea2d9bc152f4da38cd97b48f69c35f85d7d75
         // line 8
         echo "<link href='//fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel=\"shortcut icon\" href=\"";
+        // line 10
+        echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
+        echo "/images/favicon.ico\" type=\"image/x-icon\" />
 <link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css\"
     integrity=\"sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7\"
     crossorigin=\"anonymous\">
 ";
-        // line 13
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://fonts/font-awesome/css/font-awesome.min.css", 1 => 101), "method");
         // line 14
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://css/style.css", 1 => 101), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://fonts/font-awesome/css/font-awesome.min.css", 1 => 101), "method");
         // line 15
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://css/mobile-menu.css", 1 => 101), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://css/style.css", 1 => 101), "method");
         // line 16
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://css/mobile-menu.css", 1 => 101), "method");
+        // line 17
         echo " ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "css", array(), "method");
         echo "
 ";
     }
 
-    // line 19
+    // line 20
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 20
+        // line 21
         echo "    ";
         if ((($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getBrowser", array()) == "msie") && ($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getVersion", array()) <= 9))) {
-            // line 21
+            // line 22
             echo "        <script src=\"//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js\"></script>
         <script src=\"//oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>
     ";
         }
-        // line 24
+        // line 25
         echo "
     ";
-        // line 25
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "jquery", 1 => 101), "method");
         // line 26
-        echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://js/smoothscroll.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "jquery", 1 => 101), "method");
         // line 27
         echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://js/mobile-menu.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://js/smoothscroll.js"), "method");
         // line 28
         echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://js/flexSlider/jquery.flexslider-min.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://js/mobile-menu.js"), "method");
         // line 29
         echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://js/scripts.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://js/flexSlider/jquery.flexslider-min.js"), "method");
         // line 30
+        echo "    ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "theme://js/scripts.js"), "method");
+        // line 31
         echo "
     ";
-        // line 31
+        // line 32
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
         echo "
 
@@ -127,7 +131,7 @@ class __TwigTemplate_fb5102653d84053e6cd484ea2d9bc152f4da38cd97b48f69c35f85d7d75
 
     public function getDebugInfo()
     {
-        return array (  109 => 31,  106 => 30,  103 => 29,  100 => 28,  97 => 27,  94 => 26,  92 => 25,  89 => 24,  84 => 21,  81 => 20,  78 => 19,  71 => 16,  69 => 15,  67 => 14,  65 => 13,  58 => 8,  55 => 7,  51 => 19,  48 => 18,  46 => 7,  40 => 3,  34 => 2,  22 => 1,);
+        return array (  113 => 32,  110 => 31,  107 => 30,  104 => 29,  101 => 28,  98 => 27,  96 => 26,  93 => 25,  88 => 22,  85 => 21,  82 => 20,  75 => 17,  73 => 16,  71 => 15,  69 => 14,  62 => 10,  58 => 8,  55 => 7,  51 => 20,  48 => 19,  46 => 7,  40 => 3,  34 => 2,  22 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -149,6 +153,7 @@ class __TwigTemplate_fb5102653d84053e6cd484ea2d9bc152f4da38cd97b48f69c35f85d7d75
 {% block stylesheets %}
 <link href='//fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel=\"shortcut icon\" href=\"{{ theme_url }}/images/favicon.ico\" type=\"image/x-icon\" />
 <link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css\"
     integrity=\"sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7\"
     crossorigin=\"anonymous\">

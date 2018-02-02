@@ -23,8 +23,8 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 
 ";
         // line 5
-        $this->loadTemplate("blog.html.twig", "blog.html.twig", 5, "1709673372")->display($context);
-        // line 64
+        $this->loadTemplate("blog.html.twig", "blog.html.twig", 5, "992449329")->display($context);
+        // line 63
         echo "
 
 ";
@@ -42,7 +42,7 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 
     public function getDebugInfo()
     {
-        return array (  28 => 64,  26 => 5,  21 => 2,  19 => 1,);
+        return array (  28 => 63,  26 => 5,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -99,8 +99,7 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div> <!-- eof col -->
-\t\t\t\t<div class=\"col-md-1\"></div>
-\t\t\t\t<div class=\"col-md-3\">
+\t\t\t\t<div class=\"col-md-3 col-md-offset-1\">
 \t\t\t\t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
 \t\t\t\t\t\t<h1 id=\"recent-posts-title\">Recent</h1>
 \t\t\t\t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">
@@ -126,7 +125,7 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 
 
 /* blog.html.twig */
-class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec604562e_1709673372 extends Twig_Template
+class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec604562e_992449329 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -260,13 +259,12 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
         echo "\t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div> <!-- eof col -->
-\t\t\t\t<div class=\"col-md-1\"></div>
-\t\t\t\t<div class=\"col-md-3\">
+\t\t\t\t<div class=\"col-md-3 col-md-offset-1\">
 \t\t\t\t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
 \t\t\t\t\t\t<h1 id=\"recent-posts-title\">Recent</h1>
 \t\t\t\t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">
 \t\t\t\t\t\t\t";
-        // line 50
+        // line 49
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "find", array(0 => "/blog"), "method"), "children", array()), "order", array(0 => "date", 1 => "desc"), "method"), "slice", array(0 => 0, 1 => 5), "method"));
         $context['loop'] = array(
@@ -283,16 +281,16 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 51
+            // line 50
             echo "\t\t\t\t\t\t\t\t";
             if (($this->getAttribute($context["loop"], "index", array()) <= 3)) {
-                // line 52
+                // line 51
                 echo "\t\t\t\t\t\t\t\t\t";
-                $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 52)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["p"], "truncate" => true)));
-                // line 53
+                $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 51)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["p"], "truncate" => true)));
+                // line 52
                 echo "\t\t\t\t\t\t\t\t";
             }
-            // line 54
+            // line 53
             echo "\t\t\t\t\t\t\t";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -306,7 +304,7 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 55
+        // line 54
         echo "\t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 
@@ -328,7 +326,7 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 
     public function getDebugInfo()
     {
-        return array (  310 => 55,  296 => 54,  293 => 53,  290 => 52,  287 => 51,  270 => 50,  260 => 42,  257 => 41,  254 => 40,  252 => 39,  249 => 38,  235 => 37,  232 => 36,  215 => 35,  208 => 30,  205 => 29,  202 => 28,  200 => 27,  194 => 24,  187 => 20,  183 => 19,  177 => 17,  173 => 15,  167 => 13,  165 => 12,  162 => 11,  159 => 10,  156 => 9,  152 => 5,  150 => 7,  136 => 5,  28 => 64,  26 => 5,  21 => 2,  19 => 1,);
+        return array (  308 => 54,  294 => 53,  291 => 52,  288 => 51,  285 => 50,  268 => 49,  259 => 42,  256 => 41,  253 => 40,  251 => 39,  248 => 38,  234 => 37,  231 => 36,  214 => 35,  207 => 30,  204 => 29,  201 => 28,  199 => 27,  193 => 24,  186 => 20,  182 => 19,  176 => 17,  172 => 15,  166 => 13,  164 => 12,  161 => 11,  158 => 10,  155 => 9,  151 => 5,  149 => 7,  135 => 5,  28 => 63,  26 => 5,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -385,8 +383,7 @@ class __TwigTemplate_c436e1323458ba47f65e53cf04cc71aa3a5b54a3e40f1ca3b438607ec60
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div> <!-- eof col -->
-\t\t\t\t<div class=\"col-md-1\"></div>
-\t\t\t\t<div class=\"col-md-3\">
+\t\t\t\t<div class=\"col-md-3 col-md-offset-1\">
 \t\t\t\t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
 \t\t\t\t\t\t<h1 id=\"recent-posts-title\">Recent</h1>
 \t\t\t\t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">

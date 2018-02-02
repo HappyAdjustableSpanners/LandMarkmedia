@@ -19,7 +19,7 @@ class __TwigTemplate_817943d1553d99d633259d38314c26fe46eedf75218445093e5a09fa8cf
         echo "
 \t";
         // line 3
-        $this->loadTemplate("item.html.twig", "item.html.twig", 3, "582743565")->display($context);
+        $this->loadTemplate("item.html.twig", "item.html.twig", 3, "1596160012")->display($context);
     }
 
     public function getTemplateName()
@@ -71,8 +71,7 @@ class __TwigTemplate_817943d1553d99d633259d38314c26fe46eedf75218445093e5a09fa8cf
 \t\t\t\t\t\t</div>
 \t\t\t\t    </div>
 \t\t\t\t</div>
-\t\t\t\t<div class=\"col-md-1\"></div>
-\t\t\t\t<div class=\"col-md-3\">
+\t\t\t\t<div class=\"col-md-3 col-md-offset-1\">
 \t\t\t\t\t<h1 id=\"recent-posts-title\">Recent</h1>
 \t\t\t\t\t{% for p in page.find('/blog').children.order('date', 'desc').slice(0,5) %}
 \t\t\t\t\t\t{% if loop.index <= 3 %}
@@ -94,7 +93,7 @@ class __TwigTemplate_817943d1553d99d633259d38314c26fe46eedf75218445093e5a09fa8cf
 
 
 /* item.html.twig */
-class __TwigTemplate_817943d1553d99d633259d38314c26fe46eedf75218445093e5a09fa8cf6bb1d_582743565 extends Twig_Template
+class __TwigTemplate_817943d1553d99d633259d38314c26fe46eedf75218445093e5a09fa8cf6bb1d_1596160012 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -150,11 +149,10 @@ class __TwigTemplate_817943d1553d99d633259d38314c26fe46eedf75218445093e5a09fa8cf
         echo "\t\t\t\t\t\t</div>
 \t\t\t\t    </div>
 \t\t\t\t</div>
-\t\t\t\t<div class=\"col-md-1\"></div>
-\t\t\t\t<div class=\"col-md-3\">
+\t\t\t\t<div class=\"col-md-3 col-md-offset-1\">
 \t\t\t\t\t<h1 id=\"recent-posts-title\">Recent</h1>
 \t\t\t\t\t";
-        // line 28
+        // line 27
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "find", array(0 => "/blog"), "method"), "children", array()), "order", array(0 => "date", 1 => "desc"), "method"), "slice", array(0 => 0, 1 => 5), "method"));
         $context['loop'] = array(
@@ -171,16 +169,16 @@ class __TwigTemplate_817943d1553d99d633259d38314c26fe46eedf75218445093e5a09fa8cf
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 29
+            // line 28
             echo "\t\t\t\t\t\t";
             if (($this->getAttribute($context["loop"], "index", array()) <= 3)) {
-                // line 30
+                // line 29
                 echo "\t\t\t\t\t\t\t";
-                $this->loadTemplate("partials/blog_item.html.twig", "item.html.twig", 30)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["p"], "truncate" => true)));
-                // line 31
+                $this->loadTemplate("partials/blog_item.html.twig", "item.html.twig", 29)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["p"], "truncate" => true)));
+                // line 30
                 echo "\t\t\t\t\t\t";
             }
-            // line 32
+            // line 31
             echo "\t\t\t\t\t";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -194,7 +192,7 @@ class __TwigTemplate_817943d1553d99d633259d38314c26fe46eedf75218445093e5a09fa8cf
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 33
+        // line 32
         echo "\t\t\t\t</div>
 \t\t\t</div>
 \t\t\t</div>
@@ -216,7 +214,7 @@ class __TwigTemplate_817943d1553d99d633259d38314c26fe46eedf75218445093e5a09fa8cf
 
     public function getDebugInfo()
     {
-        return array (  198 => 33,  184 => 32,  181 => 31,  178 => 30,  175 => 29,  158 => 28,  150 => 22,  148 => 21,  132 => 9,  129 => 8,  126 => 7,  123 => 6,  120 => 5,  22 => 3,  19 => 2,);
+        return array (  196 => 32,  182 => 31,  179 => 30,  176 => 29,  173 => 28,  156 => 27,  149 => 22,  147 => 21,  131 => 9,  128 => 8,  125 => 7,  122 => 6,  119 => 5,  22 => 3,  19 => 2,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -253,8 +251,7 @@ class __TwigTemplate_817943d1553d99d633259d38314c26fe46eedf75218445093e5a09fa8cf
 \t\t\t\t\t\t</div>
 \t\t\t\t    </div>
 \t\t\t\t</div>
-\t\t\t\t<div class=\"col-md-1\"></div>
-\t\t\t\t<div class=\"col-md-3\">
+\t\t\t\t<div class=\"col-md-3 col-md-offset-1\">
 \t\t\t\t\t<h1 id=\"recent-posts-title\">Recent</h1>
 \t\t\t\t\t{% for p in page.find('/blog').children.order('date', 'desc').slice(0,5) %}
 \t\t\t\t\t\t{% if loop.index <= 3 %}

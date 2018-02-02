@@ -35,7 +35,16 @@
 
 <nav class="navbar m-menu navbar-default navbar-fixed-top">
     <div class="container">
+
+<div class="row">
+
+    <div class="col-md-4 col-xs-5">
+
         <div class="navbar-header">
+
+            <a class="navbar-brand" href="{{ base_url == '' ? '/' : base_url }}">
+                <img class="img-fluid" src="{{ theme_url }}/images/logo-xl.png" alt="">
+            </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -49,7 +58,11 @@
             </a>
             {% endif %}
         </div>
+     </div>
 
+
+
+<div class="col-md-8">
         <div class="collapse navbar-collapse" id="#navbar-collapse-1">
             {% if config.plugins.simplesearch.enabled %}
             <ul class="nav-cta hidden-xs">
@@ -69,5 +82,11 @@
             </ul>
 
         </div>
+</div>
+
+
+</div>
+
+
     </div>
 </nav>

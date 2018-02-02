@@ -1,6 +1,36 @@
 /* --------------------------------------
 Custom JH
 ------------------------------------------*/
+
+.pagination li {
+
+}
+
+.prev-next a {
+    color: black;
+    font-weight: bold;
+}
+
+.prev-next {
+    padding-top: 20px;
+}
+
+.btn-hover {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+}
+
+.btn-hover:hover {
+    opacity: 0.4;
+}
+
+.btn-prev-blog {
+    padding-right: 20px;
+}
+
 .border-radius-50 img {
     border-radius: 50%;
 }
@@ -328,15 +358,20 @@ Custom JH
     text-align: right;
 }
 
+.fa-facebook {
+    padding-right: 2px;
+    padding-top: 2px;
+}
+
+.contact-head {
+    font-weight: bold;
+}
+
 @media (max-width : 981px) {
-    .contact-heading {
-        border-right: none;
-        text-align: center;
-    }
 
     .contact-dividers {
-        border-left: none;
-        border-right: none;
+        border-left: none !important;
+        border-right: none !important;
     }
 }
 
@@ -356,6 +391,9 @@ Custom JH
 
 .contact-icon {
     color: #D31C23;
+    position: relative;
+    top: 10px;
+    padding-right: 28px;
 }
 
 .contact-icon i {
@@ -398,6 +436,18 @@ Custom JH
     border-color: #D31C23;
     width: 50px;
     margin: 0;
+}
+
+.hr-red {
+    border-color:#D31C23;
+}
+
+.hr-white {
+    border-color: white;
+}
+.hr-center {
+    width: 10%;
+    margin-bottom: 22px
 }
 
 .width-130 {
@@ -503,87 +553,10 @@ Custom JH
     border-bottom: 1px solid #D31C23;
 }
 
-.blog-article {
-    /* hide text if it more than N lines  */
-    overflow: hidden;
-    /* for set '...' in absolute position */
-    position: relative; 
-    /* use this value to count block height */
-    line-height: 1.2em;
-    /* max-height = line-height (1.2) * lines max number (3) */
-    max-height: 4.6em; 
-    /* fix problem when last visible word doesn't adjoin right side  */
-    text-align: justify;  
-    /* place for '...' */
-    margin-right: -1em;
-    padding-right: 1em;
-  }
-  /* create the ... */
-  .blog-article:before {
-    /* points in the end */
-    content: '...';
-    /* absolute position */
-    position: absolute;
-    /* set position to right bottom corner of block */
-    right: 0;
-    bottom: 0;
-  }
-  /* hide ... if we have text, which is less than or equal to max lines */
-  .blog-article:after {
-    /* points in the end */
-    content: '';
-    /* absolute position */
-    position: absolute;
-    /* set position to right bottom corner of text */
-    right: 0;
-    /* set width and height */
-    width: 1em;
-    height: 1em;
-    margin-top: 0.2em;
-    /* bg color = bg color under block */
-    background: white;
-  }
 
-  .post-div p {
-    /* hide text if it more than N lines  */
-    overflow: hidden;
-    /* for set '...' in absolute position */
-    position: relative; 
-    /* use this value to count block height */
-    line-height: 1.2em;
-    /* max-height = line-height (1.2) * lines max number (3) */
-    max-height: 4.6em; 
-    /* fix problem when last visible word doesn't adjoin right side  */
-    text-align: justify;  
-    /* place for '...' */
-    margin-right: -1em;
-    padding-right: 1em;
-  }
-  /* create the ... */
-  .post-div p:before {
-    /* points in the end */
-    content: '...';
-    /* absolute position */
-    position: absolute;
-    /* set position to right bottom corner of block */
-    right: 0;
-    bottom: 0;
-  }
-  /* hide ... if we have text, which is less than or equal to max lines */
-  .post-div p:after {
-    /* points in the end */
-    content: '';
-    /* absolute position */
-    position: absolute;
-    /* set position to right bottom corner of text */
-    right: 0;
-    /* set width and height */
-    width: 1em;
-    height: 1em;
-    margin-top: 0.2em;
-    /* bg color = bg color under block */
-    background: white;
-  }
+.contact-head a {
+    color: black;
+}
 
   #recent-posts-title {
     color: black;
@@ -598,6 +571,25 @@ Custom JH
   }
 
 
+.row-border{
+    position: relative;
+}
+
+.row-border:after {
+    content: '';
+    width: 1px;
+    background-color: black;
+   display: block;
+   position: absolute;
+   left: 75%;
+   height: 90%;
+   top: 13%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Team */
 
@@ -2207,6 +2199,14 @@ service-icon-style
         padding    : 30px 15px;
         min-height : inherit;
         }
+
+
+
+
+
+
+
+
     }
 
 .footer .footer-block.last {

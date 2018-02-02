@@ -7,9 +7,7 @@
 
     <div class="list-blog-header">
       
-     <div class="container">
-        <div class="row">
-            <div class="col-md-5 no-padding">
+
              {% if page.taxonomy.tag %}
         <span class="tags">
             {% for tag in page.taxonomy.tag %}
@@ -36,9 +34,8 @@
         {% else %}
             <h2 class="p-name"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h2>
         {% endif %}
-            </div>
-        </div>
-     </div>
+    
+     
 
        
 
@@ -63,17 +60,18 @@
         {% endif %}
     {% elseif truncate and page.summary != page.content %}
         <div class="p-summary e-content">
-            {{ page.summary }}
+            {{ page.summary | truncate(100) }}
+            
             <p><a href="{{ page.url }}">{{ 'Continue Reading'|t }}</a><i class="fa fa-long-arrow-right icon-cont-reading"></i></p>
         </div>
     {% elseif truncate %}
         <div class="p-summary e-content">
-            {{ page.content }}
+            {{ page.content | striptag | truncate(50) }}
             <p><a href="{{ page.url }}">{{ 'Continue Reading'|t }}</a></p>
         </div>
     {% else %}
         <div class="e-content">
-            {{ page.content }}
+            {{ page.content | striptag | truncate(50) }}
         </div>
         {% if config.plugins.comments.enabled %}
             {% include 'partials/comments.html.twig' %}
@@ -87,7 +85,7 @@
 
         <p class="prev-next">
             {% if not page.isFirst %}
-                <a class="button" href="{{ page.nextSibling.url }}"><i class="fa fa-chevron-left"></i> {{ 'Previous Post'|t }}</a>
+                <a class="button btn-prev-blog" href="{{ page.nextSibling.url }}"><i class="fa fa-chevron-left"></i> {{ 'Previous Post'|t }}</a>
             {% endif %}
 
             {% if not page.isLast %}

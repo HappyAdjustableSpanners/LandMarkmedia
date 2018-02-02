@@ -29,41 +29,40 @@ class __TwigTemplate_d11e5f29f53b0b62cbe702a1894dba7677fe7b6f92df7b6f08ebd17e053
   <div class=\"row\" id=\"contact-fields\">
     <div class=\"col-md-4\">
         <div class=\"row\">
-            <div class=\"col-sm-2 contact-icon\">
-                <i class=\"fa fa-envelope fa-3x\"></i>
-            </div>
-            <div class=\"col-sm-10 contact-content\">";
-        // line 14
+            <div class=\"col-sm-12\">
+                <p class=\"contact-head\"><a href=\"\"> <i class=\"fa fa-envelope fa-3x contact-icon  hidden-xs\"></i>";
+        // line 12
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "address", array());
-        echo "</div>
+        echo "</a></p>
+            </div>
         </div>
     </div>
     <div class=\"col-md-4 contact-dividers\">
         <div class=\"row\">
-            <div class=\"col-sm-2 contact-icon\">
-                <i class=\"fa fa-mobile fa-3x\"></i>
-            </div>
-            <div class=\"col-sm-10 contact-content\">
-                ";
-        // line 23
+            <div class=\"col-sm-12\">
+                <p class=\"contact-head\"><a href=\"tel:+";
+        // line 19
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "phone", array());
-        echo "
+        echo "\"><i class=\"fa fa-mobile fa-3x contact-icon hidden-xs\"></i>";
+        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "phone", array());
+        echo "</a></p>
             </div>
         </div>
     </div>
     <div class=\"col-md-4\">
         <div class=\"row\">
-            <div class=\"col-sm-2 contact-icon\">
-                <i class=\"fa fa-map-marker fa-3x\"></i>
-            </div>
-            <div class=\"col-sm-10 contact-content\">";
-        // line 32
+             <div class=\"col-sm-12\">
+                <p class=\"contact-head\"><a href=\"mailto:";
+        // line 26
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "email", array());
-        echo "</div>
+        echo "\"><i class=\"fa fa-map-marker fa-3x contact-icon  hidden-xs\"></i>";
+        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "email", array());
+        echo "</a></p>
+            </div>
         </div>
     </div>
     ";
-        // line 48
+        // line 43
         echo "  </div>
 </div>";
     }
@@ -80,7 +79,7 @@ class __TwigTemplate_d11e5f29f53b0b62cbe702a1894dba7677fe7b6f92df7b6f08ebd17e053
 
     public function getDebugInfo()
     {
-        return array (  67 => 48,  61 => 32,  49 => 23,  37 => 14,  26 => 6,  19 => 1,);
+        return array (  66 => 43,  57 => 26,  45 => 19,  35 => 12,  26 => 6,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -103,28 +102,23 @@ class __TwigTemplate_d11e5f29f53b0b62cbe702a1894dba7677fe7b6f92df7b6f08ebd17e053
   <div class=\"row\" id=\"contact-fields\">
     <div class=\"col-md-4\">
         <div class=\"row\">
-            <div class=\"col-sm-2 contact-icon\">
-                <i class=\"fa fa-envelope fa-3x\"></i>
+            <div class=\"col-sm-12\">
+                <p class=\"contact-head\"><a href=\"\"> <i class=\"fa fa-envelope fa-3x contact-icon  hidden-xs\"></i>{{header.address}}</a></p>
             </div>
-            <div class=\"col-sm-10 contact-content\">{{header.address}}</div>
         </div>
     </div>
     <div class=\"col-md-4 contact-dividers\">
         <div class=\"row\">
-            <div class=\"col-sm-2 contact-icon\">
-                <i class=\"fa fa-mobile fa-3x\"></i>
-            </div>
-            <div class=\"col-sm-10 contact-content\">
-                {{header.phone}}
+            <div class=\"col-sm-12\">
+                <p class=\"contact-head\"><a href=\"tel:+{{header.phone}}\"><i class=\"fa fa-mobile fa-3x contact-icon hidden-xs\"></i>{{header.phone}}</a></p>
             </div>
         </div>
     </div>
     <div class=\"col-md-4\">
         <div class=\"row\">
-            <div class=\"col-sm-2 contact-icon\">
-                <i class=\"fa fa-map-marker fa-3x\"></i>
+             <div class=\"col-sm-12\">
+                <p class=\"contact-head\"><a href=\"mailto:{{header.email}}\"><i class=\"fa fa-map-marker fa-3x contact-icon  hidden-xs\"></i>{{header.email}}</a></p>
             </div>
-            <div class=\"col-sm-10 contact-content\">{{header.email}}</div>
         </div>
     </div>
     {# <div class=\"col-md-4\">

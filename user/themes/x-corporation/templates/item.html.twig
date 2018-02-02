@@ -22,8 +22,7 @@
 						</div>
 				    </div>
 				</div>
-				<div class="col-md-1"></div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-md-offset-1">
 					<h1 id="recent-posts-title">Recent</h1>
 					{% for p in page.find('/blog').children.order('date', 'desc').slice(0,5) %}
 						{% if loop.index <= 3 %}

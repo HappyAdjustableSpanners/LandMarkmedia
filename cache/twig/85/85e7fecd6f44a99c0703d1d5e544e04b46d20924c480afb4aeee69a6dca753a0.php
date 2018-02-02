@@ -20,13 +20,14 @@ class __TwigTemplate_7e48ffa496b943b620adb56939e78b082b3aa677116d8bfcef01616f1b8
   <h1 class=\"margin-top-0\">
     Team
   </h1>
+  <hr class=\"hr-center hr-white\">
   <p class=\"margin-bottom-50\">";
-        // line 5
+        // line 6
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "subheading", array());
         echo "</p>
   
   ";
-        // line 7
+        // line 8
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "team", array()));
         $context['loop'] = array(
@@ -43,59 +44,59 @@ class __TwigTemplate_7e48ffa496b943b620adb56939e78b082b3aa677116d8bfcef01616f1b8
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["member"]) {
-            // line 8
+            // line 9
             echo "         <!-- For each 2 items, add a row -->
         ";
-            // line 9
+            // line 10
             if ((($this->getAttribute($context["loop"], "index", array()) % 4) == 1)) {
-                // line 10
+                // line 11
                 echo "                <div class=\"row row-center\">
         ";
             }
-            // line 12
+            // line 13
             echo "            <div class=\"col-center col-md-2\">
                 <div class=\"member-card\">
                     
                     <!-- img -->
                     <a href=\"/LandmarkMedia/team\" class=\"border-radius-50 team-img\">
                         ";
-            // line 17
+            // line 18
             echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array()), $this->getAttribute($context["member"], "image", array()), array(), "array"), "html", array(0 => "", 1 => $this->getAttribute($context["member"], "name", array())), "method");
             echo "
                     </a>
 
                     <!-- Info -->
                     <p class=\"team-name\">";
-            // line 21
+            // line 22
             echo $this->getAttribute($context["member"], "name", array());
             echo "</p>
                     <p class=\"team-position\">";
-            // line 22
+            // line 23
             echo $this->getAttribute($context["member"], "position", array());
             echo "</p>
                     <p class=\"team-description\">";
-            // line 23
+            // line 24
             echo $this->getAttribute($context["member"], "description", array());
             echo "</p>
 
                     <div class=\"row\">
                         <div class=\"col-xs-offset-3 col-xs-2 team-icon\">
                             <a href=\"";
-            // line 27
+            // line 28
             echo $this->getAttribute($context["member"], "facebookurl", array());
-            echo "\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>
+            echo "\"><i class=\"fa fa-facebook btn-hover\" aria-hidden=\"true\"></i></a>
                         </div>
                         <div class=\"col-xs-2 team-icon\">
                             <a href=\"";
-            // line 30
+            // line 31
             echo $this->getAttribute($context["member"], "twitterurl", array());
-            echo "\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>
+            echo "\"><i class=\"fa fa-twitter btn-hover\" aria-hidden=\"true\"></i></a>
                         </div>
                         <div class=\"col-xs-2 team-icon\">
                             <a href=\"";
-            // line 33
+            // line 34
             echo $this->getAttribute($context["member"], "linkedinurl", array());
-            echo "\"><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i></a>
+            echo "\"><i class=\"fa fa-linkedin btn-hover\" aria-hidden=\"true\"></i></a>
                         </div>
 
                     </div>
@@ -104,13 +105,13 @@ class __TwigTemplate_7e48ffa496b943b620adb56939e78b082b3aa677116d8bfcef01616f1b8
             </div> <!-- End col -->
 
                ";
-            // line 41
+            // line 42
             if ((($this->getAttribute($context["loop"], "index", array()) == $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "services", array()), "count", array())) || (($this->getAttribute($context["loop"], "index", array()) % 4) == 0))) {
-                // line 42
+                // line 43
                 echo "        </div>
         ";
             }
-            // line 44
+            // line 45
             echo "
   ";
             ++$context['loop']['index0'];
@@ -125,7 +126,7 @@ class __TwigTemplate_7e48ffa496b943b620adb56939e78b082b3aa677116d8bfcef01616f1b8
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['member'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 46
+        // line 47
         echo "</div>
 </div>";
     }
@@ -142,7 +143,7 @@ class __TwigTemplate_7e48ffa496b943b620adb56939e78b082b3aa677116d8bfcef01616f1b8
 
     public function getDebugInfo()
     {
-        return array (  129 => 46,  114 => 44,  110 => 42,  108 => 41,  97 => 33,  91 => 30,  85 => 27,  78 => 23,  74 => 22,  70 => 21,  63 => 17,  56 => 12,  52 => 10,  50 => 9,  47 => 8,  30 => 7,  25 => 5,  19 => 1,);
+        return array (  130 => 47,  115 => 45,  111 => 43,  109 => 42,  98 => 34,  92 => 31,  86 => 28,  79 => 24,  75 => 23,  71 => 22,  64 => 18,  57 => 13,  53 => 11,  51 => 10,  48 => 9,  31 => 8,  26 => 6,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -159,6 +160,7 @@ class __TwigTemplate_7e48ffa496b943b620adb56939e78b082b3aa677116d8bfcef01616f1b8
   <h1 class=\"margin-top-0\">
     Team
   </h1>
+  <hr class=\"hr-center hr-white\">
   <p class=\"margin-bottom-50\">{{header.subheading}}</p>
   
   {% for member in page.header.team %}
@@ -181,13 +183,13 @@ class __TwigTemplate_7e48ffa496b943b620adb56939e78b082b3aa677116d8bfcef01616f1b8
 
                     <div class=\"row\">
                         <div class=\"col-xs-offset-3 col-xs-2 team-icon\">
-                            <a href=\"{{member.facebookurl}}\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>
+                            <a href=\"{{member.facebookurl}}\"><i class=\"fa fa-facebook btn-hover\" aria-hidden=\"true\"></i></a>
                         </div>
                         <div class=\"col-xs-2 team-icon\">
-                            <a href=\"{{member.twitterurl}}\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>
+                            <a href=\"{{member.twitterurl}}\"><i class=\"fa fa-twitter btn-hover\" aria-hidden=\"true\"></i></a>
                         </div>
                         <div class=\"col-xs-2 team-icon\">
-                            <a href=\"{{member.linkedinurl}}\"><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i></a>
+                            <a href=\"{{member.linkedinurl}}\"><i class=\"fa fa-linkedin btn-hover\" aria-hidden=\"true\"></i></a>
                         </div>
 
                     </div>

@@ -36,19 +36,19 @@ class __TwigTemplate_2816b837df3ad2e795a4a62ad6764e22c8786d61e2aba4236daeb719d4c
                     <a href=\"";
             // line 13
             echo $this->getAttribute($context["member"], "facebookurl", array());
-            echo "\"><i class=\"fa fa-facebook\"></i></a>
+            echo "\"><i class=\"fa fa-facebook btn-hover\"></i></a>
                 </div>
                 <div class=\"row\">
                     <a href=\"";
             // line 16
             echo $this->getAttribute($context["member"], "twitterurl", array());
-            echo "\"><i class=\"fa fa-twitter\"></i></a>
+            echo "\"><i class=\"fa fa-twitter btn-hover\"></i></a>
                 </div>
                 <div class=\"row\">
                     <a href=\"";
             // line 19
             echo $this->getAttribute($context["member"], "linkedinurl", array());
-            echo "\"><i class=\"fa fa-linkedin\"></i></a>
+            echo "\"><i class=\"fa fa-linkedin btn-hover\"></i></a>
                 </div>
             </div>
             <div class=\"col-md-3 img-col\">
@@ -126,13 +126,13 @@ class __TwigTemplate_2816b837df3ad2e795a4a62ad6764e22c8786d61e2aba4236daeb719d4c
         <div class=\"row member-row\">
             <div class=\"col-xs-1 member-icon\">
                 <div class=\"row\">
-                    <a href=\"{{member.facebookurl}}\"><i class=\"fa fa-facebook\"></i></a>
+                    <a href=\"{{member.facebookurl}}\"><i class=\"fa fa-facebook btn-hover\"></i></a>
                 </div>
                 <div class=\"row\">
-                    <a href=\"{{member.twitterurl}}\"><i class=\"fa fa-twitter\"></i></a>
+                    <a href=\"{{member.twitterurl}}\"><i class=\"fa fa-twitter btn-hover\"></i></a>
                 </div>
                 <div class=\"row\">
-                    <a href=\"{{member.linkedinurl}}\"><i class=\"fa fa-linkedin\"></i></a>
+                    <a href=\"{{member.linkedinurl}}\"><i class=\"fa fa-linkedin btn-hover\"></i></a>
                 </div>
             </div>
             <div class=\"col-md-3 img-col\">
